@@ -1,0 +1,16 @@
+# amenity=dive_center
+
+boundary=admin_level
+boundary=administrative
+boundary=postal_code
+
+place=city
+place=country
+place=state
+place=region
+place=province
+place=municipality
+place=village
+place=town
+place=hamlet
+

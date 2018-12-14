@@ -1,0 +1,152 @@
+List all protected sites in trentino
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX psso: <http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#>
+
+SELECT ?pname
+WHERE {?site rdf:type psso:ProtectedSite  ;
+             psso:CompetenceUnder ?region ;
+             psso:LocalName ?pname .
+    ?region psso:Name ?region_name .
+    FILTER (?region_name IN ("Trentino-Alto Adige"))
+}
+
+----------------------------------------------------------------------
+
+find all transportation points covering protected sites in trentino
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX psso: <http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#>
+
+SELECT ?tpoint_name ?type_name ?psite_name 
+WHERE {?psite rdf:type psso:ProtectedSite  ;
+              psso:CompetenceUnder ?region ;
+              psso:LocalName ?psite_name	;
+              psso:IsReachableBy ?tpoint .
+    ?tpoint psso:Name ?tpoint_name ;
+            rdf:type ?type.
+    ?type rdfs:label ?type_name .
+    ?region psso:Name ?region_name .
+    FILTER (?region_name IN ("Trentino-Alto Adige"))
+}
+
+------------------------------------------------------------------------
+
+1. not used
+
+Find all public transports that are reaching protected sites
+in a given region.
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX psso: <http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#>
+SELECT ?tpoint_name ?name ?psite_name
+WHERE {?psite rdf:type psso:ProtectedSite;
+              psso:IsReachableBy ?tpoint;
+              psso:LocalName ?psite_name.
+    ?tpoint psso:Covers ?province;
+            rdf:type ?tpoint_type;
+            psso:Name ?tpoint_name.
+    ?province psso:IsComprised ?region.
+    ?region psso:Name ?name.
+    FILTER (?tpoint_type IN (psso:BusStop, psso:TrainStation) &&
+        ?name IN ("Trentino-Alto Adige")
+    )
+}	
+
+2.  get how many transportation point are present for a given
+protected site
+
+SELECT ?site (COUNT(?tpoint) as ?degree)
+WHERE {
+  ?tpoint rdf:type ?type;
+          psso:Reaches ?site.
+    FILTER (?type IN (psso:TrainStation, psso:BusStop))
+}
+GROUP BY ?site
+
+--------------------------------------------------------------------------
+
+find all birds species housed in psite in trentino
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX psso: <http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#>
+
+SELECT distinct ?psite_name ?species_name
+WHERE {?psite rdf:type psso:ProtectedSite ;
+              psso:CompetenceUnder ?region;
+              psso:LocalName ?psite_name;
+              psso:Hosts ?relation .
+    ?region rdfs:label ?name;
+            psso:Name ?region_name .
+    ?relation psso:HasSpecies ?species .
+    ?species psso:Name ?species_name ;
+             psso:Supergroup ?family .
+    FILTER (?name IN ("Trentino-Alto Adige"@en) &&
+        (?family IN ("Birds"))
+    )
+}
+
+
+--------------------------------------------------------------------------
+
+# NOT IN REPORT
+
+Find all species and their rareness within protected sites present
+in Trentino.
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX psso: <http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#>
+SELECT ?psite_name ?species_name ?region_name ?rareness
+WHERE {?psite rdf:type psso:ProtectedSite ;
+              psso:CompetenceUnder ?region;
+              psso:LocalName ?psite_name.
+    ?psite psso:Hosts ?relation .
+    ?region rdfs:label ?name;
+            psso:Name ?region_name .
+    ?relation psso:HasSpecies ?species ;
+              psso:AbundanceCategory ?rareness .
+    ?species psso:Name ?species_name.
+    FILTER (?name IN ("Trentino-Alto Adige"@en)
+    )
+}
+
+---------------------------------------------------------------------------
+
+Find where the Anas platyrhynchos (germano reale) can be found and how it can be reached:
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX psso: <http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#>
+
+SELECT ?psite_name ?tpoint_name ?province_name ?region_name
+WHERE {?species rdf:type psso:Species;
+                psso:Name ?species_name;
+                psso:IsHosted ?relation.
+    ?relation psso:HasProtectedSite ?psite.
+    ?psite psso:LocalName ?psite_name;
+           psso:IsReachableBy ?tpoint;
+           psso:CompetenceUnder ?region.
+    ?region psso:Name ?region_name.
+    ?tpoint psso:Name ?tpoint_name;
+            psso:Covers ?province.
+    ?province psso:Name ?province_name.
+    FILTER (?species_name IN ("Anas platyrhynchos"))
+}
+

@@ -1,0 +1,31 @@
+amenity=bicycle_rental
+amenity=boat_rental
+amenity=boat_sharing
+amenity=bus_station
+amenity=car_rental
+amenity=car_sharing
+amenity=ferry_terminal
+amenity=taxi
+
+aeroway=aeroway
+aeroway=aerodrome
+aeroway=yelipad
+aeroway=eliport
+aeroway=spaceport
+
+highway=bus_stop
+
+public_transport=stop_position
+public_transport=platform
+public_transport=station
+public_transport=stop_area
+
+railway=platform
+railway=station
+railway=tram_stop
+
+# route=bus
+# route=ferry
+# route=railway
+# route=train
+# route=tram

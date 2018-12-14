@@ -1,0 +1,16 @@
+
+# filter osm file matching tags provided by the filtering_tag file
+osmium tags-filter --overwrite <source.osm> -F osm -e filtering_tag -f osm -o <dest.osm>
+
+# sort by tag id
+osmium sort <input.osm> -o <out.osm>
+
+# export sqlite3 query to csv file
+# (within the sqlite shell...)
+.headers on
+.mode csv
+.output nodes.csv
+SELECT el_id, lat, lon, tags
+FROM elements
+WHERE id LIKE "n%";
+.quit

@@ -1,0 +1,28 @@
+boundary=national_park
+boundary=protected_area
+
+leisure=nature_reserve
+
+waterway=lake
+
+geological=palaeontological_site
+# geological=moraine
+
+historic=archaeological_site
+# historic=castle
+# historic=church
+# historic=memorial
+# historic=monastery
+# historic=monument
+# historic=rune_stone
+# leisure=garden
+# leisure=wildlife_hide
+
+natural=water
+# natural=spring
+# natural=hot_spring
+# natural=glacier
+# natural=peak
+# natural=volcano
+# natural=cave_entrance
+

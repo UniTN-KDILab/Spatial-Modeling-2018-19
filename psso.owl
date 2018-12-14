@@ -1,0 +1,2611 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#">
+    <Prefix name="" IRI="http://www.semanticweb.org/lubuntu/ontologies/2018/10/psso/#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="authors"/>
+        <Literal xml:lang="en">Diego Lobba &amp; Nicolò Alessandro Girardini</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Compliant with CSK ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This ontology aims at integrating protected sites in Italy coming from Natura2000 and WDPA datasets, following the INSPIRE european directive. It also integrates transportation points, gathered from OSM dataset, so it can be used to provide a useful service for tourism pourposes</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal xml:lang="en">10/12/2018 Version</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="AdministrativeDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Aerodrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BoatRentalService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BoatSharingService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusStop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BycicleRentalService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CarRentalService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CarSharingService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ferryport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LivingBeing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ManagementAuthority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ProtectedSite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ProtectedSiteSpecies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RelationalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RentalService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SharingService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TrainStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TransportationPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="AdministrativeDivisionProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="CompetenceUnder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Comprises"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Connected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Covers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HasProtectedSite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HasSpecies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Hosts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsCompetentOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsComprised"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsCoveredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsHosted"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsManagedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsReachableBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="ManagementAuthorityProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Manages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="ProtectedSiteProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="ProtectedSiteSpeciesProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="ProvinceProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Reaches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="RegionProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="SpeciesProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="TransportationProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="AbundanceCategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="AdministrativeDivisionCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="AreaCovered"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="BusStopValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="ContactInformationValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="CoordinateValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="DDCoordinateValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="DDLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="DDLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="DMSCoordinateValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="DMSLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="DMSLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Designation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Fax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="IdentificationValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="LocalName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="MarineAreaCovered"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="NUTS2Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="NUTS3Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Natura2000PSID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Natura2000SpeciesID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="OSMID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="OpeningHour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Operator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="PSType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="RentalServiceValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="RouteLine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Shelter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="SpeciesValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="StatusYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Supergroup"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Telephone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="TransportationPointCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="TransportationPointValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="WDPAID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Website"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Wheelchair"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="authors"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="generalConcept"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="parentID"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="posTag"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="synsetID"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="psso:abundance"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="AdministrativeDivision"/>
+        <Class IRI="Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="AdministrativeDivision"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="AdministrativeDivisionCode"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Aerodrome"/>
+        <Class IRI="TransportationPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Airport"/>
+        <Class IRI="TransportationPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BoatRentalService"/>
+        <Class IRI="RentalService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BoatSharingService"/>
+        <Class IRI="SharingService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusStop"/>
+        <Class IRI="TransportationPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusStop"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="RouteLine"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusStop"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Shelter"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusStop"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Wheelchair"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BycicleRentalService"/>
+        <Class IRI="RentalService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CarRentalService"/>
+        <Class IRI="RentalService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CarSharingService"/>
+        <Class IRI="SharingService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="City"/>
+        <Class IRI="AdministrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="City"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="IsComprised"/>
+            <Class IRI="Province"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Country"/>
+        <Class IRI="AdministrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Country"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="Comprises"/>
+            <Class IRI="Region"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ferryport"/>
+        <Class IRI="TransportationPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Location"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ManagementAuthority"/>
+        <Class IRI="Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ManagementAuthority"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="Manages"/>
+            <Class IRI="ProtectedSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ManagementAuthority"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="ContactInformationValue"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ManagementAuthority"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <Class IRI="Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="CompetenceUnder"/>
+            <Class IRI="Region"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="Hosts"/>
+            <Class IRI="ProtectedSiteSpecies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="IsManagedBy"/>
+            <Class IRI="ManagementAuthority"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="IsReachableBy"/>
+            <Class IRI="TransportationPoint"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="AreaCovered"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="DDCoordinateValue"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="DMSCoordinateValue"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Designation"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="LocalName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="MarineAreaCovered"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Natura2000PSID"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="PSType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Status"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="StatusYear"/>
+            <Datatype abbreviatedIRI="xsd:short"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSite"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="WDPAID"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSiteSpecies"/>
+        <Class IRI="RelationalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSiteSpecies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="HasProtectedSite"/>
+            <Class IRI="ProtectedSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSiteSpecies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="HasSpecies"/>
+            <Class IRI="Species"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProtectedSiteSpecies"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="AbundanceCategory"/>
+            <Datatype IRI="psso:abundance"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Province"/>
+        <Class IRI="AdministrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Province"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="Comprises"/>
+            <Class IRI="City"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Province"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="IsComprised"/>
+            <Class IRI="Region"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Province"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="IsCoveredBy"/>
+            <Class IRI="TransportationPoint"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Province"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="NUTS3Code"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Region"/>
+        <Class IRI="AdministrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="Comprises"/>
+            <Class IRI="Province"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="IsCompetentOn"/>
+            <Class IRI="ProtectedSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="IsComprised"/>
+            <Class IRI="Country"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Region"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="NUTS2Code"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RentalService"/>
+        <Class IRI="TransportationPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RentalService"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="OpeningHour"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SharingService"/>
+        <Class IRI="TransportationPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Species"/>
+        <Class IRI="LivingBeing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Species"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="IsHosted"/>
+            <Class IRI="ProtectedSiteSpecies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Species"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Species"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Natura2000SpeciesID"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Species"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Supergroup"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TrainStation"/>
+        <Class IRI="TransportationPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <Class IRI="Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="Connected"/>
+            <Class IRI="Location"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="Covers"/>
+            <Class IRI="Province"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="Reaches"/>
+            <Class IRI="ProtectedSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="ContactInformationValue"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="DDCoordinateValue"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="DMSCoordinateValue"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="OSMID"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransportationPoint"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="Operator"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="AdministrativeDivision"/>
+        <Class IRI="ProtectedSite"/>
+        <Class IRI="TransportationPoint"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="AdministrativeDivisionProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="CompetenceUnder"/>
+        <ObjectProperty IRI="ProtectedSiteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Comprises"/>
+        <ObjectProperty IRI="AdministrativeDivisionProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Connected"/>
+        <ObjectProperty IRI="TransportationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Covers"/>
+        <ObjectProperty IRI="TransportationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="HasProtectedSite"/>
+        <ObjectProperty IRI="ProtectedSiteSpeciesProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="HasSpecies"/>
+        <ObjectProperty IRI="ProtectedSiteSpeciesProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Hosts"/>
+        <ObjectProperty IRI="ProtectedSiteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsCompetentOn"/>
+        <ObjectProperty IRI="RegionProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsComprised"/>
+        <ObjectProperty IRI="AdministrativeDivisionProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsCoveredBy"/>
+        <ObjectProperty IRI="ProvinceProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsHosted"/>
+        <ObjectProperty IRI="SpeciesProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsManagedBy"/>
+        <ObjectProperty IRI="ProtectedSiteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsReachableBy"/>
+        <ObjectProperty IRI="ProtectedSiteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="ManagementAuthorityProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Manages"/>
+        <ObjectProperty IRI="ManagementAuthorityProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="ProtectedSiteProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="ProvinceProperty"/>
+        <ObjectProperty IRI="AdministrativeDivisionProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Reaches"/>
+        <ObjectProperty IRI="TransportationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="RegionProperty"/>
+        <ObjectProperty IRI="AdministrativeDivisionProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="SpeciesProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="TransportationProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="CompetenceUnder"/>
+        <ObjectProperty IRI="IsCompetentOn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="Covers"/>
+        <ObjectProperty IRI="IsCoveredBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="IsManagedBy"/>
+        <ObjectProperty IRI="Manages"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="IsReachableBy"/>
+        <ObjectProperty IRI="Reaches"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="CompetenceUnder"/>
+        <Class IRI="ProtectedSite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Comprises"/>
+        <Class IRI="AdministrativeDivision"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Connected"/>
+        <Class IRI="TransportationPoint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Covers"/>
+        <Class IRI="TransportationPoint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HasProtectedSite"/>
+        <Class IRI="ProtectedSiteSpecies"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HasSpecies"/>
+        <Class IRI="ProtectedSiteSpecies"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Hosts"/>
+        <Class IRI="ProtectedSite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsCompetentOn"/>
+        <Class IRI="Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsComprised"/>
+        <Class IRI="AdministrativeDivision"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsCoveredBy"/>
+        <Class IRI="Province"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsHosted"/>
+        <Class IRI="Species"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsManagedBy"/>
+        <Class IRI="ProtectedSite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsReachableBy"/>
+        <Class IRI="ProtectedSite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Manages"/>
+        <Class IRI="ManagementAuthority"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Reaches"/>
+        <Class IRI="TransportationPoint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="CompetenceUnder"/>
+        <Class IRI="Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Comprises"/>
+        <Class IRI="AdministrativeDivision"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Connected"/>
+        <Class IRI="Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Covers"/>
+        <Class IRI="Province"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="HasProtectedSite"/>
+        <Class IRI="ProtectedSite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="HasSpecies"/>
+        <Class IRI="Species"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Hosts"/>
+        <Class IRI="ProtectedSiteSpecies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="IsCompetentOn"/>
+        <Class IRI="ProtectedSite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="IsComprised"/>
+        <Class IRI="AdministrativeDivision"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="IsCoveredBy"/>
+        <Class IRI="TransportationPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="IsHosted"/>
+        <Class IRI="ProtectedSiteSpecies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="IsManagedBy"/>
+        <Class IRI="ManagementAuthority"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="IsReachableBy"/>
+        <Class IRI="TransportationPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Manages"/>
+        <Class IRI="ProtectedSite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Reaches"/>
+        <Class IRI="ProtectedSite"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="AbundanceCategory"/>
+        <DataProperty IRI="SpeciesValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Address"/>
+        <DataProperty IRI="ContactInformationValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="AdministrativeDivisionCode"/>
+        <DataProperty IRI="IdentificationValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="AreaCovered"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="BusStopValue"/>
+        <DataProperty IRI="TransportationPointValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="ContactInformationValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="CoordinateValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="DDCoordinateValue"/>
+        <DataProperty IRI="CoordinateValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="DDLatitude"/>
+        <DataProperty IRI="DDCoordinateValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="DDLongitude"/>
+        <DataProperty IRI="DDCoordinateValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="DMSCoordinateValue"/>
+        <DataProperty IRI="CoordinateValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="DMSLatitude"/>
+        <DataProperty IRI="DMSCoordinateValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="DMSLongitude"/>
+        <DataProperty IRI="DMSCoordinateValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Designation"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Email"/>
+        <DataProperty IRI="ContactInformationValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Fax"/>
+        <DataProperty IRI="ContactInformationValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="IdentificationValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="LocalName"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="MarineAreaCovered"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="NUTS2Code"/>
+        <DataProperty IRI="AdministrativeDivisionCode"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="NUTS3Code"/>
+        <DataProperty IRI="AdministrativeDivisionCode"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Name"/>
+        <DataProperty IRI="IdentificationValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Natura2000PSID"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Natura2000SpeciesID"/>
+        <DataProperty IRI="SpeciesValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="OSMID"/>
+        <DataProperty IRI="TransportationPointCode"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="OpeningHour"/>
+        <DataProperty IRI="RentalServiceValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Operator"/>
+        <DataProperty IRI="TransportationPointValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="PSType"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="ProtectedSiteValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="RentalServiceValue"/>
+        <DataProperty IRI="TransportationPointValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="RouteLine"/>
+        <DataProperty IRI="BusStopValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Shelter"/>
+        <DataProperty IRI="BusStopValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="SpeciesValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Status"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="StatusYear"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Supergroup"/>
+        <DataProperty IRI="SpeciesValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Telephone"/>
+        <DataProperty IRI="ContactInformationValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="TransportationPointCode"/>
+        <DataProperty IRI="IdentificationValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="TransportationPointValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="WDPAID"/>
+        <DataProperty IRI="ProtectedSiteValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Website"/>
+        <DataProperty IRI="ContactInformationValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="Wheelchair"/>
+        <DataProperty IRI="BusStopValue"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="AbundanceCategory"/>
+        <Class IRI="Species"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Address"/>
+        <Class IRI="ManagementAuthority"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="AdministrativeDivisionCode"/>
+        <Class IRI="AdministrativeDivision"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="AreaCovered"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Designation"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Email"/>
+        <Class IRI="ManagementAuthority"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Email"/>
+        <Class IRI="TransportationPoint"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Fax"/>
+        <Class IRI="ManagementAuthority"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Fax"/>
+        <Class IRI="TransportationPoint"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="LocalName"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="MarineAreaCovered"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="NUTS2Code"/>
+        <Class IRI="Region"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="NUTS3Code"/>
+        <Class IRI="Province"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Name"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Natura2000PSID"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Natura2000SpeciesID"/>
+        <Class IRI="Species"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OSMID"/>
+        <Class IRI="TransportationPoint"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OpeningHour"/>
+        <Class IRI="RentalService"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Operator"/>
+        <Class IRI="TransportationPoint"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="PSType"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="RouteLine"/>
+        <Class IRI="BusStop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Shelter"/>
+        <Class IRI="BusStop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Status"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="StatusYear"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Supergroup"/>
+        <Class IRI="Species"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Telephone"/>
+        <Class IRI="ManagementAuthority"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Telephone"/>
+        <Class IRI="TransportationPoint"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="WDPAID"/>
+        <Class IRI="ProtectedSite"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Website"/>
+        <Class IRI="TransportationPoint"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Wheelchair"/>
+        <Class IRI="BusStop"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="AbundanceCategory"/>
+        <Datatype IRI="psso:abundance"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="AdministrativeDivisionCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="AreaCovered"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="DDCoordinateValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="DMSCoordinateValue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Designation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Fax"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="LocalName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="MarineAreaCovered"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="NUTS2Code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="NUTS3Code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Natura2000PSID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Natura2000SpeciesID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="OSMID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="OpeningHour"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Operator"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="PSType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="RouteLine"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Shelter"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="StatusYear"/>
+        <Datatype abbreviatedIRI="xsd:short"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Supergroup"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Telephone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="WDPAID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Website"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Wheelchair"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>AbundanceCategory</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05124537</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AbundanceCategory</IRI>
+        <Literal xml:lang="en">AbundanceCategory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Address</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08508037</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Address</IRI>
+        <Literal xml:lang="en">Address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>AdministrativeDivision</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08237635</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AdministrativeDivision</IRI>
+        <Literal xml:lang="en">AdministrativeDivision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>AdministrativeDivisionCode</IRI>
+        <Literal xml:lang="en">Codes identifying areas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>AdministrativeDivisionCode</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>AdministrativeDivisionCode</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>AdministrativeDivisionCode</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AdministrativeDivisionCode</IRI>
+        <Literal xml:lang="en">AdministrativeDivisionCode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AdministrativeDivisionProperty</IRI>
+        <Literal xml:lang="en">AdministrativeDivisionProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Aerodrome</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02695091</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Aerodrome</IRI>
+        <Literal xml:lang="en">Aerodrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Airport</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02695091</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Airport</IRI>
+        <Literal xml:lang="en">Airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>AreaCovered</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05135784</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AreaCovered</IRI>
+        <Literal xml:lang="en">AreaCovered</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>BoatRentalService</IRI>
+        <Literal xml:lang="en">Boat rental service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>BoatRentalService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13269292</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>BoatRentalService</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>BoatRentalService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BoatRentalService</IRI>
+        <Literal xml:lang="en">BoatRentalService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>BoatSharingService</IRI>
+        <Literal xml:lang="en">Boat sharing service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>BoatSharingService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13866117</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>BoatSharingService</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>BoatSharingService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BoatSharingService</IRI>
+        <Literal xml:lang="en">BoatSharingService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>BusStop</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08534954</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusStop</IRI>
+        <Literal xml:lang="en">BusStop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusStopValue</IRI>
+        <Literal xml:lang="en">BusStopValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>BycicleRentalService</IRI>
+        <Literal xml:lang="en">Bycicles rental service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>BycicleRentalService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13269292</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>BycicleRentalService</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>BycicleRentalService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BycicleRentalService</IRI>
+        <Literal xml:lang="en">BicycleRentalService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>CarRentalService</IRI>
+        <Literal xml:lang="en">Car rental service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>CarRentalService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13269292</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>CarRentalService</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>CarRentalService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>CarRentalService</IRI>
+        <Literal xml:lang="en">CarRentalService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>CarSharingService</IRI>
+        <Literal xml:lang="en">Car sharing service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>CarSharingService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13866117</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>CarSharingService</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>CarSharingService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>CarSharingService</IRI>
+        <Literal xml:lang="en">CarSharingService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>City</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08558466</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>City</IRI>
+        <Literal xml:lang="en">City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>CompetenceUnder</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">00514055</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>CompetenceUnder</IRI>
+        <Literal xml:lang="en">CompetenceUnder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Comprises</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02639437</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Comprises</IRI>
+        <Literal xml:lang="en">Comprises</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Connected</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">00568364</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Connected</IRI>
+        <Literal xml:lang="en">Connected</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>ContactInformationValue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06271913</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ContactInformationValue</IRI>
+        <Literal xml:lang="en">ContactInformationValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>CoordinateValue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06020279</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>CoordinateValue</IRI>
+        <Literal xml:lang="en">CoordinateValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Country</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08562388</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Country</IRI>
+        <Literal xml:lang="en">Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Covers</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01916152</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Covers</IRI>
+        <Literal xml:lang="en">Covers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>DDCoordinateValue</IRI>
+        <Literal xml:lang="en">Coordinate values in decimal degrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>DDCoordinateValue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06020279</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>DDCoordinateValue</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>DDCoordinateValue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>DDCoordinateValue</IRI>
+        <Literal xml:lang="en">DDCoordinateValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>DDLatitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08613087</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>DDLatitude</IRI>
+        <Literal xml:lang="en">DDLatitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>DDLongitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08614224</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>DDLongitude</IRI>
+        <Literal xml:lang="en">DDLongitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>DMSCoordinateValue</IRI>
+        <Literal xml:lang="en">Coordinate values in degrees, minutes, seconds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>DMSCoordinateValue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06020279</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>DMSCoordinateValue</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>DMSCoordinateValue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>DMSCoordinateValue</IRI>
+        <Literal xml:lang="en">DMSCoordinateValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>DMSLatitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08613087</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>DMSLatitude</IRI>
+        <Literal xml:lang="en">DMSLatitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>DMSLongitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08614224</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>DMSLongitude</IRI>
+        <Literal xml:lang="en">DMSLongitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Designation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06350278</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Designation</IRI>
+        <Literal xml:lang="en">Designation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>Email</IRI>
+        <Literal xml:lang="en">The email contact, not the system itself</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>Email</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06271913</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>Email</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Email</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Email</IRI>
+        <Literal xml:lang="en">Email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>Fax</IRI>
+        <Literal xml:lang="en">The fax number, not the tool itself</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>Fax</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06271913</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>Fax</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Fax</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Fax</IRI>
+        <Literal xml:lang="en">Fax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Ferryport</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08656633</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Ferryport</IRI>
+        <Literal xml:lang="en">Ferryport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>HasProtectedSite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>HasProtectedSite</IRI>
+        <Literal xml:lang="en">HasProtectedSite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>HasSpecies</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>HasSpecies</IRI>
+        <Literal xml:lang="en">HasSpecies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Hosts</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02464596</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Hosts</IRI>
+        <Literal xml:lang="en">Hosts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>IdentificationValue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IdentificationValue</IRI>
+        <Literal xml:lang="en">IdentificationValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>IsCompetentOn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">00514055</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsCompetentOn</IRI>
+        <Literal xml:lang="en">IsCompetentOn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>IsComprised</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02639437</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsComprised</IRI>
+        <Literal xml:lang="en">IsComprised</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>IsCoveredBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01916152</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsCoveredBy</IRI>
+        <Literal xml:lang="en">IsCoveredBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>IsHosted</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02464596</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsHosted</IRI>
+        <Literal xml:lang="en">IsHosted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>IsManagedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02447914</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsManagedBy</IRI>
+        <Literal xml:lang="en">IsManagedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>IsReachableBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">00019169</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsReachableBy</IRI>
+        <Literal xml:lang="en">IsReachableBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>LivingBeing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">00004475</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>LivingBeing</IRI>
+        <Literal xml:lang="en">LivingBeing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>LocalName</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06355208</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>LocalName</IRI>
+        <Literal xml:lang="en">LocalName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">00027365</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Location</IRI>
+        <Literal xml:lang="en">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>ManagementAuthority</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08397896</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ManagementAuthority</IRI>
+        <Literal xml:lang="en">ManagementAuthority</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ManagementAuthorityProperty</IRI>
+        <Literal xml:lang="en">ManagementAuthorityProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Manages</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02447914</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Manages</IRI>
+        <Literal xml:lang="en">Manages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>MarineAreaCovered</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05135784</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>MarineAreaCovered</IRI>
+        <Literal xml:lang="en">MarineAreaCovered</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>NUTS2Code</IRI>
+        <Literal xml:lang="en">European Region identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>NUTS2Code</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>NUTS2Code</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>NUTS2Code</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NUTS2Code</IRI>
+        <Literal xml:lang="en">NUTS2Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>NUTS3Code</IRI>
+        <Literal xml:lang="en">European Province identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>NUTS3Code</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>NUTS3Code</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>NUTS3Code</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NUTS3Code</IRI>
+        <Literal xml:lang="en">NUTS3Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Name</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06344646</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Name</IRI>
+        <Literal xml:lang="en">Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>Natura2000PSID</IRI>
+        <Literal xml:lang="en">Protected site&apos;s ID in Natura2000 dataset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>Natura2000PSID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>Natura2000PSID</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Natura2000PSID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Natura2000PSID</IRI>
+        <Literal xml:lang="en">Natura2000PSID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>Natura2000SpeciesID</IRI>
+        <Literal xml:lang="en">ID given to the species in Natura2000 dataset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>Natura2000SpeciesID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>Natura2000SpeciesID</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Natura2000SpeciesID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Natura2000SpeciesID</IRI>
+        <Literal xml:lang="en">Natura2000SpeciesID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>OSMID</IRI>
+        <Literal xml:lang="en">Open Street Map ID for nodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>OSMID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>OSMID</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>OSMID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OSMID</IRI>
+        <Literal xml:lang="en">OSMID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>OpeningHour</IRI>
+        <Literal xml:lang="en">Opening hour of a transportation service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>OpeningHour</IRI>
+        <Literal xml:lang="en">15253174</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>OpeningHour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OpeningHour</IRI>
+        <Literal xml:lang="en">OpeningHour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Operator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10398479</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Operator</IRI>
+        <Literal xml:lang="en">Operator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Organization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08181484</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Organization</IRI>
+        <Literal xml:lang="en">An organization is a unit constituted by members with common goals and formal rules. Organizations include corporations, companies, agencies, political parties and other groups defined by an established organizational structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Organization</IRI>
+        <Literal xml:lang="en">Organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>PSType</IRI>
+        <Literal xml:lang="en">Protected site&apos;s type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>PSType</IRI>
+        <Literal xml:lang="en">05848697</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>PSType</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>PSType</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>PSType</IRI>
+        <Literal xml:lang="en">PSType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>ProtectedSite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8632724</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ProtectedSite</IRI>
+        <Literal xml:lang="en">ProtectedSite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ProtectedSiteProperty</IRI>
+        <Literal xml:lang="en">ProtectedSiteProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ProtectedSiteSpecies</IRI>
+        <Literal xml:lang="en">ProtectedSiteSpecies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ProtectedSiteSpeciesProperty</IRI>
+        <Literal xml:lang="en">ProtectedSiteSpeciesProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ProtectedSiteValue</IRI>
+        <Literal xml:lang="en">ProtectedSiteValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>Province</IRI>
+        <Literal xml:lang="en">Administrative division tipycal of Italy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>Province</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08237635</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>Province</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Province</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Province</IRI>
+        <Literal xml:lang="en">Province</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ProvinceProperty</IRI>
+        <Literal xml:lang="en">ProvinceProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Reaches</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">00019169</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Reaches</IRI>
+        <Literal xml:lang="en">Reaches</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Region</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08671935</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Region</IRI>
+        <Literal xml:lang="en">Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>RegionProperty</IRI>
+        <Literal xml:lang="en">RegionProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>RelationalEntity</IRI>
+        <Literal xml:lang="en">Relation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>RelationalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">00032220</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>RelationalEntity</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>RelationalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>RelationalEntity</IRI>
+        <Literal xml:lang="en">RelationalEntity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>RentalService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13269292</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>RentalService</IRI>
+        <Literal xml:lang="en">RentalService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>RentalServiceValue</IRI>
+        <Literal xml:lang="en">RentalServiceValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>RouteLine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08633886</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>RouteLine</IRI>
+        <Literal xml:lang="en">RouteLine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>SharingService</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13866117</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>SharingService</IRI>
+        <Literal xml:lang="en">SharingService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Shelter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">04198986</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Shelter</IRI>
+        <Literal xml:lang="en">Shelter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Species</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08127339</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Species</IRI>
+        <Literal xml:lang="en">Species</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>SpeciesProperty</IRI>
+        <Literal xml:lang="en">SpeciesProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>SpeciesValue</IRI>
+        <Literal xml:lang="en">SpeciesValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13943868</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Status</IRI>
+        <Literal xml:lang="en">Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>StatusYear</IRI>
+        <Literal xml:lang="en">Year in which the protected site gained its status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>StatusYear</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15228587</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>StatusYear</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>StatusYear</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>StatusYear</IRI>
+        <Literal xml:lang="en">StatusYear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Supergroup</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">08124465</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Supergroup</IRI>
+        <Literal xml:lang="en">Supergroup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Telephone</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06437781</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Telephone</IRI>
+        <Literal xml:lang="en">Telephone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>TrainStation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">04056210</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TrainStation</IRI>
+        <Literal xml:lang="en">TrainStation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>TransportationPoint</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">04480667</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TransportationPoint</IRI>
+        <Literal xml:lang="en">TransportationPoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>TransportationPointCode</IRI>
+        <Literal xml:lang="en">Identification code for transportation points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>TransportationPointCode</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>TransportationPointCode</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>TransportationPointCode</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TransportationPointCode</IRI>
+        <Literal xml:lang="en">TransportationPointCode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TransportationPointValue</IRI>
+        <Literal xml:lang="en">TransportationPointValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TransportationProperty</IRI>
+        <Literal xml:lang="en">TransportationProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>WDPAID</IRI>
+        <Literal xml:lang="en">Protected site&apos;s ID in WDPA dataset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>WDPAID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07285306</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>WDPAID</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>WDPAID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>WDPAID</IRI>
+        <Literal xml:lang="en">WDPAID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Website</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06370600</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Website</IRI>
+        <Literal xml:lang="en">Website</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="generalConcept"/>
+        <IRI>Wheelchair</IRI>
+        <Literal xml:lang="en">Availability of the service for people with motor disfunctions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="parentID"/>
+        <IRI>Wheelchair</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">04583288</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="posTag"/>
+        <IRI>Wheelchair</IRI>
+        <Literal xml:lang="en">noun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="synsetID"/>
+        <IRI>Wheelchair</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Wheelchair</IRI>
+        <Literal xml:lang="en">Wheelchair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>generalConcept</IRI>
+        <Literal xml:lang="en">Description of the concept if no matching synset is found in Wordnet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>parentID</IRI>
+        <Literal xml:lang="en">ID of the Wordnet synset mapping the general concept of the word. It could be considered the parent of the new synset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>posTag</IRI>
+        <Literal xml:lang="en">POS tagging of the word if not already in a Wordnet synset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>synsetID</IRI>
+        <Literal xml:lang="en">ID of the Wordnet synset related to the word (-1 if no valid synset is found)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>psso:abundance</IRI>
+        <Literal xml:lang="en">psso:abundance</Literal>
+    </AnnotationAssertion>
+    <DatatypeDefinition>
+        <Datatype IRI="psso:abundance"/>
+        <DataOneOf>
+            <Literal>common</Literal>
+            <Literal>present</Literal>
+            <Literal>rare</Literal>
+            <Literal>unknown</Literal>
+            <Literal>very rare</Literal>
+        </DataOneOf>
+    </DatatypeDefinition>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,138 @@
+# regions
+Individual: @'regions'!B*
+Annotations: rdfs:label @'regions'!A*(xml:lang="en")
+Types: Region
+Facts:
+    NUTS2Code @'regions'!B*(xsd:string),
+    Name @'regions'!A*(xsd:string)
+
+Individual: @'sites'!Q*
+Types: Region
+Facts:
+    IsCompetentOn @'sites'!R*(mm:IRI)
+
+Individual: @'provinces'!C*
+Types: Region
+Facts:
+    Comprises @'provinces'!B*(mm:IRI)
+
+------------------------------------------------------------
+
+# provinces
+Individual: @'provinces'!B*
+Annotations: rdfs:label @'provinces'!A*(xml:lang="en")
+Types: Province
+Facts:
+    NUTS2Code @'provinces'!B*(xsd:string),
+    Name @'provinces'!A*(xsd:string),
+    IsComprised @'provinces'!C*(mm:IRI)
+
+--------------------------------------------------------------
+
+# management authority
+Individual: @'management'!B*
+Annotations: rdfs:label @'management'!B*(xml:lang="en")
+Types: ManagementAuthority
+Facts:
+    Name @'management'!B*(xsd:string),
+    Email @'management'!C*(xsd:string),
+    Address @'management'!D*(xsd:string),
+    Telephone @'management'!E*(xsd:string),
+    Fax @'management'!F*(xsd:string),
+    Manages @H*(mm:IRI)
+
+---------------------------------------------------------------
+
+# wdpa_2ksites
+Individual: @'sites'!R*
+Annotations: rdfs:label @'sites'!B*(xml:lang="en")
+Types: ProtectedSite
+Facts:
+    LocalName @'sites'!B*(xsd:string),
+    Natura2000PSID	@'sites'!C*(xsd:string),
+    DDLongitude	@'sites'!N*(xsd:decimal),
+    DDLatitude	@'sites'!O*(xsd:decimal),
+    WDPAID		@'sites'!R*(xsd:string),
+    Designation	@'sites'!T*(xsd:string),
+    PSType		@'sites'!V*(xsd:string),
+    MarineAreaCovered	@'sites'!W*(xsd:decimal),
+    AreaCovered	        @'sites'!X*(xsd:decimal),
+    Status		@'sites'!Y*(xsd:string),
+    StatusYear	@'sites'!Z*(xsd:short),
+    PSType  @'sites'!V* (xsd:string),
+    CompetenceUnder @'sites'!Q*
+
+Individual: @'species'!H*
+Types: ProtectedSite
+Facts:
+    Hosts @'species'!I*(mm:IRI)
+
+Individual: @'management'!H*
+Types: ProtectedSite
+Facts:
+    IsManagedBy @'management'!B*(mm:IRI)
+
+Individual: @'connections'!A*
+Types: ProtectedSite
+Facts:
+    IsReachableBy @'connections'!B*(mm:IRI)
+
+------------------------------------------------------------------
+
+# species
+Individual: @'species'!D*
+Annotations: rdfs:label @'species'!C*(xml:lang="en")
+Types: Species
+Facts: Name @'species'!C*(xsd:string),
+    Natura2000SpeciesID	@'species'!D*(xsd:string),
+    Supergroup @'species'!E*(xsd:string),
+    IsHosted @'species'!I*(mm:IRI)
+        
+----------------------------------------------------
+
+# PS Species
+Individual: @'species'!I*
+Annotations: rdfs:label @'species'!I*(mm:prepend("speciesin:") xml:lang="en")
+Types: ProtectedSiteSpecies
+Facts:
+	HasProtectedSite @'species'!H*(mm:IRI),
+    	HasSpecies @'species'!D*(mm:IRI),
+	AbundanceCategory @'species'!F*(xsd:string mm:DefaultLiteral="present")
+
+-------------------------------------------------------
+# TRANSPORTATION LINKS
+
+# transportation points
+
+Individual: @'transports'!A*
+Annotations: rdfs:label @'transports'!B*(xml:lang="en")
+Types: @'transports'!R*
+Facts:
+    Name @'transports'!B*(xsd:string),
+    OSMID @'transports'!A*(xsd:string),
+    DDLongitude @'transports'!J*(xsd:decimal),
+    DDLatitude  @'transports'!I*(xsd:decimal),
+    Operator @'transports'!C*(xsd:string),
+    Website @'transports'!K*(xsd:string),
+    Email @'transports'!L*(xsd:string),
+    Telephone @'transports'!M*(xsd:string),
+    Fax @'transports'!O*(xsd:string),
+    Covers @'transports'!Q*(mm:IRI)
+    
+Individual: @'connections'!B*
+Facts:
+    Reaches @'connections'!A*(mm:IRI)
+
+Individual: @'connections'!A*
+Facts:
+    IsReachableBy @'connections'!B*(mm:IRI)
+
+Individual: @'transports'!Q*
+Types: Province
+Facts:
+    IsCoveredBy @'transports'!A*(mm:IRI)
+
+
+
+
+

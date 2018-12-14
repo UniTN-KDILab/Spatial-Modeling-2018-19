@@ -1,0 +1,614 @@
+region,code,name,area,length,lon,lat
+Piemonte,IT1110006,Orsiera Rocciavré,10956,0,7.1330,45.0617
+Piemonte,IT1110007,Laghi di Avigliana,414,0,7.3861,45.0652
+Piemonte,IT1110017,Lanca di Santa Marta (Confluenza Po - Banna),164,0,7.6956,44.9514
+Piemonte,IT1110018,Confluenza Po - Orco - Malone,312,0,7.8661,45.1839
+Piemonte,IT1110019,Baraccone (confluenza Po - Dora Baltea),1574,0,8.0411,45.1781
+Piemonte,IT1110020,Lago di Viverone,926,0,8.0311,45.4178
+Piemonte,IT1110024,Lanca di San Michele,228,0,7.6783,44.8675
+Piemonte,IT1110025,Po morto di Carignano,503,0,7.6967,44.8964
+Piemonte,IT1110036,Lago di Candia,335,0,7.9089,45.3281
+Piemonte,IT1110070,Meisino (confluenza Po - Stura),245,0,7.7333,45.0927
+Piemonte,IT1110080,Val Troncea,10130,0,6.9789,44.9758
+Piemonte,IT1120002,Bosco della Partecipanza di Trino,1075,0,8.2547,45.2250
+Piemonte,IT1120005,Garzaia di Carisio,103,0,8.2003,45.4225
+Piemonte,IT1120006,Val Mastallone,1882,0,8.1594,45.9164
+Piemonte,IT1120008,Fontana Gigante (Tricerro),311,0,8.2866,45.2338
+Piemonte,IT1120010,Lame del Sesia e Isolone di Oldenico,934,0,8.3975,45.4192
+Piemonte,IT1120013,Isolotto del Ritano (Dora Baltea),253,0,8.0011,45.2314
+Piemonte,IT1120014,Garzaia del Rio Druma,128,0,8.3120,45.4539
+Piemonte,IT1120021,Risaie vercellesi,2241,0,8.2328,45.2975
+Piemonte,IT1120025,Lama del Badiotto e Garzaia della Brarola,102,0,8.4966,45.2991
+Piemonte,IT1120027,"Alta Valsesia e Valli Otro, Vogna, Gronda, Artogna e Sorba",18935,0,7.9693,45.7648
+Piemonte,IT1120029,Palude di San Genuario e San Silvestro,1248,0,8.1829,45.2202
+Piemonte,IT1140001,Fondo Toce,361,0,8.4784,45.9389
+Piemonte,IT1140011,Val Grande,11855,0,8.4575,46.0408
+Piemonte,IT1140013,Lago di Mergozzo e Mont'Orfano,483,0,8.4583,45.9388
+Piemonte,IT1140016,Alpi Veglia e Devero - Monte Giove,15119,0,8.2525,46.3111
+Piemonte,IT1140017,Fiume Toce,2663,0,8.3527,45.9940
+Piemonte,IT1140018,"Alte Valli Anzasca, Antrona e Bognanco",21574,0,8.1214,46.0207
+Piemonte,IT1140019,Monte Rosa,8537,0,7.9469,45.9379
+Piemonte,IT1140020,Alta Val Strona e Val Segnara,4020,0,8.2258,45.9581
+Piemonte,IT1140021,Val Formazza,22223,0,8.3795,46.2437
+Piemonte,IT1150001,Valle del Ticino,6597,0,8.7281,45.4990
+Piemonte,IT1150003,Palude di Casalbeltrame,651,0,8.5018,45.4275
+Piemonte,IT1150004,Canneti di Dormelletto,153,0,8.5797,45.4270
+Piemonte,IT1150010,Garzaie novaresi,908,0,8.5194,45.5053
+Piemonte,IT1160003,Oasi di Crava Morozzo,299,0,7.7322,44.4214
+Piemonte,IT1160036,Stura di Demonte,1174,0,7.3590,44.3060
+Piemonte,IT1160054,Fiume Tanaro e Stagni di Neive,208,0,8.0967,44.7532
+Piemonte,IT1160056,Alpi Marittime,33672,0,7.3628,44.2014
+Piemonte,IT1160057,Alte Valli Pesio e Tanaro,11278,0,7.6983,44.1756
+Piemonte,IT1160058,Gruppo del Monviso e Bosco dell'Alevè,7232,0,7.0967,44.6456
+Piemonte,IT1160059,Zone umide di Fossano e Sant'Albano Stura,107,0,7.7037,44.4988
+Piemonte,IT1160060,Altopiano di Bainale,1842,0,7.8137,44.4883
+Piemonte,IT1160061,Alto Caprauna,1347,0,7.9668,44.1234
+Piemonte,IT1160062,Alte Valli Stura e Maira,42009,0,7.0774,44.2826
+Piemonte,IT1180002,Torrente Orba,506,0,8.6550,44.7790
+Piemonte,IT1180004,Greto dello Scrivia,2241,0,8.8472,44.8064
+Piemonte,IT1180025,Dorsale Monte Ebro - Monte Chiappo,364,0,9.1816,44.6834
+Piemonte,IT1180026,Capanne di Marcarolo,9549,0,8.7889,44.5653
+Piemonte,IT1180028,Fiume Po - tratto vercellese alessandrino,14107,0,8.5004,45.1447
+Valle d'Aosta,IT1201000,Parco Nazionale del Gran Paradiso,71042,0,7.3017,45.5189
+Valle d'Aosta,IT1202020,Mont Avic e Mont Emilius,31544,0,7.5341,45.5864
+Valle d'Aosta,IT1204030,Val Ferret,9080,0,7.0170,45.8671
+Valle d'Aosta,IT1204220,Ambienti glaciali del Gruppo del Monte Rosa,8645,0,7.7928,45.9011
+Valle d'Aosta,IT1205070,Zona Umida di Les Iles di Saint - Marcel,35,0,7.4331,45.7372
+Liguria,IT1313776,Piancavallo,1142,0,7.7681,44.1318
+Liguria,IT1314677,Saccarello - Garlenda,984,0,7.7329,44.0451
+Liguria,IT1314678,Sciorella,1481,0,7.8051,44.0240
+Liguria,IT1314679,Toraggio - Gerbonte,2567,0,7.6780,43.9992
+Liguria,IT1315380,Testa d'Alpe - Alto,1560,0,7.5974,43.9274
+Liguria,IT1315481,Ceppo Tomena,2068,0,7.7694,43.9175
+Liguria,IT1331578,Beigua - Turchino,9914,0,8.6578,44.4404
+Lombardia,IT2010007,Palude Brabbia,460,0,8.7228,45.7903
+Lombardia,IT2010401,Parco Regionale Campo dei Fiori,1298,0,8.7561,45.8644
+Lombardia,IT2010501,Lago di Varese,1738,0,8.7524,45.8073
+Lombardia,IT2010502,Canneti del Lago Maggiore,227,0,8.5860,45.7638
+Lombardia,IT2020301,Triangolo Lariano,593,0,9.3140,45.8530
+Lombardia,IT2020302,Monte Generoso,237,0,9.0220,45.9487
+Lombardia,IT2020303,Valsolda,327,0,9.0782,46.0538
+Lombardia,IT2030008,Il Toffo,88,0,9.4511,45.7269
+Lombardia,IT2030301,Monte Barro,411,0,9.3702,45.8332
+Lombardia,IT2030601,Grigne,7161,0,9.3693,45.8863
+Lombardia,IT2040016,Monte di Scerscen - Ghiacciai di Scerscen - Monte Motta,9666,0,9.9058,46.3436
+Lombardia,IT2040017,Disgrazia - Sissone,3010,0,9.7597,46.2903
+Lombardia,IT2040018,Val Codera,818,0,9.4850,46.2430
+Lombardia,IT2040021,Val di Togno - Pizzo Scalino,3150,0,9.9469,46.2556
+Lombardia,IT2040022,Lago di Mezzola e Pian di Spagna,1611,0,9.4174,46.1719
+Lombardia,IT2040044,Parco Nazionale dello Stelvio,59741,0,10.3515,46.2977
+Lombardia,IT2040401,Parco Regionale Orobie Valtellinesi,22815,0,9.8961,46.0699
+Lombardia,IT2040402,Riserva Regionale Bosco dei Bordighi,47,0,9.8937,46.1588
+Lombardia,IT2040403,Riserva Regionale Paluaccio di Oga,37,0,10.3373,46.4702
+Lombardia,IT2040601,Bagni di Masino - Pizzo Badile - Val di Mello - Val Torrone - Piano di Preda Rossa,9643,0,9.6488,46.2126
+Lombardia,IT2040602,Valle dei Ratti - Cime di Gaiazzo,1363,0,9.5333,46.1982
+Lombardia,IT2050006,Bosco di Vanzago,193,0,8.9722,45.5192
+Lombardia,IT2050401,Riserva Regionale Fontanile Nuovo,37,0,9.0074,45.4634
+Lombardia,IT2060006,Boschi del Giovetto di Paline,597,0,10.1375,45.9622
+Lombardia,IT2060015,Bosco de l'Isola,92,0,9.8858,45.4306
+Lombardia,IT2060301,Monte Resegone,429,0,9.4749,45.8527
+Lombardia,IT2060302,Costa del Pallio,295,0,9.5100,45.8691
+Lombardia,IT2060304,Val di Scalve,671,0,10.1133,45.8932
+Lombardia,IT2060401,Parco Regionale Orobie Bergamasche,48973,0,9.9661,46.0483
+Lombardia,IT2060506,Belviso Barbellino,1944,0,10.0573,46.0773
+Lombardia,IT2070020,Torbiere d'Iseo,362,0,10.0298,45.6454
+Lombardia,IT2070301,Foresta di Legnoli,332,0,10.2616,46.0561
+Lombardia,IT2070302,Val Caffaro,1238,0,10.4048,45.8609
+Lombardia,IT2070303,Val Grigna,2873,0,10.3055,45.8602
+Lombardia,IT2070401,Parco Naturale Adamello,21722,0,10.4641,46.0429
+Lombardia,IT2070402,Alto Garda Bresciano,21526,0,10.6560,45.7600
+Lombardia,IT2080017,Garzaia di Porta Chiossa,80,0,9.2114,45.2333
+Lombardia,IT2080018,Garzaia della Carola,32,0,9.1675,45.2389
+Lombardia,IT2080023,Garzaia di Cascina Villarasca,53,0,9.1044,45.3000
+Lombardia,IT2080301,Boschi del Ticino,20553,0,8.9251,45.2728
+Lombardia,IT2080501,Risaie della Lomellina,30941,0,8.6654,45.1108
+Lombardia,IT2080701,Po da Albaredo Arnaboldi ad Arena Po,907,0,9.3277,45.1095
+Lombardia,IT2080702,Po di Monticelli Pavese e Chignolo Po,290,0,9.5358,45.1235
+Lombardia,IT2080703,Po di Pieve Porto Morone,33,0,9.4708,45.0960
+Lombardia,IT2090001,Monticchie,238,0,9.6483,45.1433
+Lombardia,IT2090501,Senna Lodigiana,327,0,9.6223,45.1345
+Lombardia,IT2090502,Garzaie del Parco Adda Sud,98,0,9.6382,45.2679
+Lombardia,IT2090503,Castelnuovo Bocca d'Adda,165,0,9.8814,45.0775
+Lombardia,IT2090701,Po di San Rocco al Porto,132,0,9.6612,45.0828
+Lombardia,IT2090702,Po di Corte S. Andrea,135,0,9.5623,45.1232
+Lombardia,IT20A0005,Lanca di Gabbioneta,22,0,10.2270,45.2197
+Lombardia,IT20A0008,Isola Uccellanda,76,0,9.9131,45.3380
+Lombardia,IT20A0009,Bosco di Barco,35,0,9.8879,45.3797
+Lombardia,IT20A0401,Riserva Regionale Bosco Ronchetti,300,0,10.1379,45.0352
+Lombardia,IT20A0402,Riserva Regionale Lanca di Gerole,1180,0,10.2619,45.0247
+Lombardia,IT20A0501,Spinadesco,1039,0,9.9293,45.1158
+Lombardia,IT20A0502,Lanca di Gussola,152,0,10.3479,45.0035
+Lombardia,IT20A0503,Isola Maria Luigia,556,0,10.3461,44.9756
+Lombardia,IT20B0006,Isola Boscone,139,0,11.2344,45.0408
+Lombardia,IT20B0007,Isola Boschina,39,0,11.1489,45.0494
+Lombardia,IT20B0008,Paludi di Ostiglia,123,0,11.1011,45.1048
+Lombardia,IT20B0009,Valli del Mincio,1948,0,10.7462,45.1613
+Lombardia,IT20B0010,Vallazza,530,0,10.8311,45.1289
+Lombardia,IT20B0011,Bosco Fontana,236,0,10.7439,45.2014
+Lombardia,IT20B0401,Parco Regionale Oglio Sud,4023,0,10.3191,45.1742
+Lombardia,IT20B0402,Riserva Regionale Garzaia di Pomponesco,96,0,10.5970,44.9217
+Lombardia,IT20B0501,"Viadana, Portiolo, San Benedetto Po e Ostiglia",7223,0,10.6793,45.0136
+Bolzano,IT3110002,Biotopo Ontaneto di Sluderno,125,0,10.5819,46.6494
+Bolzano,IT3110010,Biotopo Vegetazione Steppica Sonnenberg,204,0,10.9531,46.6500
+Bolzano,IT3110011,Val di Fosse nel Parco Naturale Gruppo di Tessa,10087,0,10.9403,46.7336
+Bolzano,IT3110012,Lacines - Catena del Monteneve nel Parco Naturale Gruppo di Tessa,8095,0,11.0931,46.8244
+Bolzano,IT3110013,Biotopo Delta del Valsura,33,0,11.1775,46.6283
+Bolzano,IT3110017,Parco Naturale Vedrette di Ries - Aurina,31330,0,12.0775,46.9389
+Bolzano,IT3110018,Ontaneti dell'Aurino,36,0,11.9500,46.8889
+Bolzano,IT3110026,Valle di Funes - Sas De Putia - Rasciesa nel Parco Naturale Puez-Odle,5277,0,11.7885,46.6330
+Bolzano,IT3110029,Parco Naturale dello Sciliar - Catinaccio,7292,0,11.5842,46.4983
+Bolzano,IT3110034,Biotopo Lago di Caldaro,241,0,11.2628,46.3753
+Bolzano,IT3110036,Parco Naturale Monte Corno,6848,0,11.3069,46.2883
+Bolzano,IT3110038,Ultimo - Solda nel Parco Nazionale dello Stelvio,27989,0,10.8056,46.5208
+Bolzano,IT3110039,Ortles - Monte Madaccio nel Parco Nazionale dello Stelvio,4188,0,10.5225,46.5314
+Bolzano,IT3110040,Alpe di Cavallaccio nel Parco Nazionale dello Stelvio,3517,0,10.5064,46.6328
+Bolzano,IT3110049,Parco Naturale Fanes - Senes - Braies,25453,0,12.0567,46.6531
+Bolzano,IT3110050,Parco Naturale Tre Cime,11892,0,12.2992,46.6667
+Bolzano,IT3110051,Biotopo Ahrau di Stegona,18,0,11.9275,46.8050
+Trento,IT3120030,Fontanazzo,54,0,11.6075,46.0161
+Trento,IT3120038,Inghiaie,30,0,11.3102,45.9967
+Trento,IT3120061,La Rocchetta,89,0,11.0603,46.2483
+Trento,IT3120065,Lago d'Idro,14,0,10.5350,45.8078
+Trento,IT3120077,Palu' di Borghetto,7.93,0,10.9250,45.6922
+Trento,IT3120082,Taio di Nomi,5.29,0,11.0799,45.9250
+Trento,IT3120093,Crinale Pichea - Rocchetta,1009,0,10.7692,45.9156
+Trento,IT3120094,Alpe di Storo e Bondone,759,0,10.6058,45.8144
+Trento,IT3120095,Bocca D'ardole - Corno della Paura,178,0,10.9406,45.7661
+Trento,IT3120096,Bocca di Caset,50,0,10.6900,45.8569
+Trento,IT3120098,Monti Lessini Nord,792,0,11.0882,45.7043
+Trento,IT3120099,Piccole Dolomiti,1229,0,11.1403,45.7276
+Trento,IT3120100,Pasubio,1836,0,11.1741,45.8142
+Trento,IT3120126,Val Noana,730,0,11.8503,46.1183
+Trento,IT3120156,Adige,14,0,11.0080,45.8689
+Trento,IT3120157,Stelvio,16119,0,10.6713,46.4145
+Trento,IT3120158,Adamello Presanella,28285,0,10.6310,46.1323
+Trento,IT3120159,Brenta,29739,0,10.9040,46.2052
+Trento,IT3120160,Lagorai,46191,0,11.6429,46.1328
+Veneto,IT3210003,Laghetto del Frassino,78,4,10.6669,45.4375
+Veneto,IT3210006,"Monti Lessini: Ponte di Veja, Vaio della Marciora",171,12,10.9672,45.6194
+Veneto,IT3210008,Fontanili di Povegliano,118,6,10.9003,45.3425
+Veneto,IT3210013,Palude del Busatello,443,18,11.0886,45.1111
+Veneto,IT3210014,Palude del Feniletto - Sguazzo del Vallese,167,8,11.1129,45.3181
+Veneto,IT3210015,Palude di Pellegrina,111,7,11.0139,45.2286
+Veneto,IT3210016,Palude del Brusà - Le Vallette,171,10,11.2200,45.1697
+Veneto,IT3210018,Basso Garda,1431,20,10.6819,45.4642
+Veneto,IT3210019,Sguazzo di Rivalunga,186,6,11.1050,45.3486
+Veneto,IT3210039,Monte Baldo Ovest,6510,67,10.8322,45.7358
+Veneto,IT3210040,Monti Lessini - Pasubio - Piccole Dolomiti Vicentine,13872,179,11.2006,45.7439
+Veneto,IT3210041,Monte Baldo Est,2762,57,10.8672,45.6533
+Veneto,IT3220005,Ex Cave di Casale - Vicenza,36,3,11.5867,45.5247
+Veneto,IT3220013,Bosco di Dueville,319,13,11.5282,45.6239
+Veneto,IT3220036,Altopiano dei Sette Comuni,14988,87,11.4814,45.9567
+Veneto,IT3230022,Massiccio del Grappa,22473,142,11.8089,45.8983
+Veneto,IT3230032,Lago di Busche - Vincheto di Cellarda - Fontane,537,0,11.9690,46.0080
+Veneto,IT3230035,Valli del Cismon - Vanoi: Monte Coppolo,2845,29,11.7267,46.0786
+Veneto,IT3230043,"Pale di San Martino: Focobon, Pape - San Lucano, Agner - Croda Granda",10909,66,11.9061,46.3042
+Veneto,IT3230071,Dolomiti di Ampezzo,11362,77,12.1056,46.5953
+Veneto,IT3230077,Foresta del Cansiglio,5060,44,12.4103,46.0819
+Veneto,IT3230081,Gruppo Antelao - Marmarole - Sorapis,17069,74,12.2894,46.5022
+Veneto,IT3230083,Dolomiti Feltrine e Bellunesi,31383,178,12.0508,46.1861
+Veneto,IT3230084,Civetta - Cime di San Sebastiano,6597,68,12.0797,46.3497
+Veneto,IT3230086,Col di Lana - Settsas - Cherz,2350,26,11.9450,46.5108
+Veneto,IT3230087,Versante Sud delle Dolomiti Feltrine,8097,86,11.8560,46.0327
+Veneto,IT3230089,Dolomiti del Cadore e del Comelico,70396,382,12.4710,46.4341
+Veneto,IT3230090,Cima Campo - Monte Celado,1812,24,11.7081,45.9994
+Veneto,IT3240006,Bosco di Basalghelle,14,2,12.5211,45.8300
+Veneto,IT3240008,Bosco di Cessalto,28,3,12.6196,45.6988
+Veneto,IT3240011,"Sile: sorgenti, paludi di Morgano e S. Cristina",1299,30,12.0687,45.6460
+Veneto,IT3240012,Fontane Bianche di Lancenigo,64,4,12.2828,45.7108
+Veneto,IT3240013,Ambito Fluviale del Livenza,1061,62,12.5752,45.8238
+Veneto,IT3240016,Bosco di Gaiarine,2.11,1,12.4921,45.8608
+Veneto,IT3240017,Bosco di Cavalier,9.43,1,12.5519,45.7647
+Veneto,IT3240019,Fiume Sile: Sile Morto e ansa a S. Michele Vecchio,538,31,12.2890,45.6476
+Veneto,IT3240023,Grave del Piave,4687,92,12.2419,45.8208
+Veneto,IT3240024,Dorsale prealpina tra Valdobbiadene e Serravalle,11622,117,12.1400,46.0001
+Veneto,IT3240025,Campazzi di Onigo,213,6,11.9730,45.8486
+Veneto,IT3240026,Prai di Castello di Godego,1561,29,11.8943,45.7147
+Veneto,IT3240034,Garzaia di Pederobba,163,6,11.9550,45.8904
+Veneto,IT3240035,Settolo Basso,374,10,12.0035,45.8641
+Veneto,IT3250003,Penisola del Cavallino: biotopi litoranei,315,22,12.4428,45.4334
+Veneto,IT3250006,Bosco di Lison,5.56,1,12.7428,45.7478
+Veneto,IT3250008,Ex Cave di Villetta di Salzano,64,5,12.1322,45.5342
+Veneto,IT3250010,Bosco di Carpenedo,13,3,12.2466,45.5122
+Veneto,IT3250012,Ambiti Fluviali del Reghena e del Lemene - Cave di Cinto Caomaggiore,461,41,12.8202,45.7724
+Veneto,IT3250016,Cave di Gaggio,115,7,12.3295,45.5616
+Veneto,IT3250017,Cave di Noale,43,3,12.0844,45.5542
+Veneto,IT3250021,Ex Cave di Martellago,50,4,12.1681,45.5333
+Veneto,IT3250022,Bosco Zacchi,0.75,0,12.7622,45.8037
+Veneto,IT3250023,Lido di Venezia: biotopi litoranei,166,16,12.3219,45.3405
+Veneto,IT3250032,Bosco Nordio,157,11,12.2622,45.1250
+Veneto,IT3250040,Foce del Tagliamento,280,8,13.0887,45.6417
+Veneto,IT3250041,Valle Vecchia - Zumelle - Valli di Bibione,2089,48,12.9870,45.6342
+Veneto,IT3250042,Valli Zignago - Perera - Franchetti - Nova,2507,34,12.9066,45.6536
+Veneto,IT3250043,"Garzaia della tenuta ""Civrana""",24,2,12.0550,45.1773
+Veneto,IT3250045,Palude le Marice - Cavarzere,46,3,12.0622,45.1383
+Veneto,IT3250046,Laguna di Venezia,55206,0,12.3906,45.4900
+Veneto,IT3260001,Palude di Onara,133,8,11.8154,45.6194
+Veneto,IT3260017,Colli Euganei - Monte Lozzo - Monte Ricco,15096,92,11.6847,45.3086
+Veneto,IT3260018,Grave e Zone umide della Brenta,3848,104,11.7757,45.5674
+Veneto,IT3260020,Le Vallette,13,2,11.6068,45.2409
+Veneto,IT3260021,Bacino Val Grande - Lavacci,51,8,11.6684,45.1411
+Veneto,IT3270022,Golena di Bergantino,224,9,11.2509,45.0529
+Veneto,IT3270023,Delta del Po,25012,0,12.2677,44.9418
+Veneto,IT3270024,Vallona di Loreo,64,3,12.2047,45.0764
+Friuli Venezia Giulia,IT3310001,Dolomiti Friulane,36740,0,12.5411,46.3239
+Friuli Venezia Giulia,IT3311001,Magredi di Pordenone,10097,0,12.7660,45.9907
+Friuli Venezia Giulia,IT3320037,Laguna di Marano e Grado,16363,0,13.2361,45.7258
+Friuli Venezia Giulia,IT3321001,Alpi Carniche,19500,0,13.0057,46.5938
+Friuli Venezia Giulia,IT3321002,Alpi Giulie,18033,0,13.3525,46.3153
+Friuli Venezia Giulia,IT3330005,Foce dell'Isonzo - Isola della Cona,2668,0,13.5089,45.7522
+Friuli Venezia Giulia,IT3330006,Valle Cavanata e Banco Mula di Muggia,860,0,13.4667,45.6956
+Friuli Venezia Giulia,IT3341002,Aree Carsiche della Venezia Giulia,12189,0,13.6644,45.7579
+Emilia Romagna,IT4010016,Basso Trebbia,1336,0,9.5917,44.9875
+Emilia Romagna,IT4010017,Conoide del Nure e Bosco di Fornace vecchia,580,0,9.6992,44.9203
+Emilia Romagna,IT4010018,Fiume Po da Rio Boriacco a Bosco Ospizio,6151,0,9.7628,45.0958
+Emilia Romagna,IT4020017,"Aree delle risorgive di Viarolo, Bacini di Torrile, Fascia golenale del Po",2622,0,10.3219,44.9297
+Emilia Romagna,IT4020018,Prati e Ripristini ambientali di Frescarolo e Samboseto,1245,0,10.1405,44.9818
+Emilia Romagna,IT4020019,Golena del Po presso Zibello,336,0,10.1417,45.0310
+Emilia Romagna,IT4020020,Crinale dell'Appennino parmense,5281,0,10.0669,44.3894
+Emilia Romagna,IT4020021,Medio Taro,3810,0,10.1750,44.7419
+Emilia Romagna,IT4020022,Basso Taro,1005,0,10.2324,44.9815
+Emilia Romagna,IT4020024,San Genesio,277,0,10.1866,44.9112
+Emilia Romagna,IT4020025,Parma Morta,601,0,10.4633,44.9233
+Emilia Romagna,IT4020027,Cronovilla,92,0,10.4119,44.6580
+Emilia Romagna,IT4030001,"Monte Acuto, Alpe di Succiso",3254,0,10.1886,44.3483
+Emilia Romagna,IT4030002,Monte Ventasso,2913,0,10.2931,44.3850
+Emilia Romagna,IT4030003,"Monte la Nuda, Cima Belfiore, Passo del Cerreto",3470,0,10.2792,44.3128
+Emilia Romagna,IT4030004,"Val d'Ozola, Monte Cusna",4878,0,10.3750,44.2908
+Emilia Romagna,IT4030005,"Abetina Reale, Alta Val Dolo",3440,0,10.4583,44.2636
+Emilia Romagna,IT4030006,Monte Prado,618,0,10.4022,44.2608
+Emilia Romagna,IT4030011,Casse di espansione del Secchia,277,0,10.8089,44.6603
+Emilia Romagna,IT4030015,Valli di Novellara,1982,0,10.7556,44.8919
+Emilia Romagna,IT4030019,Cassa di espansione del Tresinaro,137,0,10.8338,44.8461
+Emilia Romagna,IT4030020,"Golena del Po di Gualtieri, Guastalla e Luzzara",1131,0,10.6600,44.9494
+Emilia Romagna,IT4030023,Fontanili di Gattatico e Fiume Enza,773,0,10.4386,44.7300
+Emilia Romagna,IT4040001,"Monte Cimone, Libro Aperto, Lago di Pratignano",5174,0,10.7189,44.1742
+Emilia Romagna,IT4040002,"Monte Rondinaio, Monte Giovo",4848,0,10.5739,44.1539
+Emilia Romagna,IT4040003,Sassi di Roccamalatina e di Sant'Andrea,1198,0,10.9433,44.3928
+Emilia Romagna,IT4040004,"Sassoguidano, Gaiato",2419,0,10.8453,44.2906
+Emilia Romagna,IT4040005,"Alpesigola, Sasso Tignoso e Monte Cantiere",3762,0,10.5783,44.2456
+Emilia Romagna,IT4040009,Manzolino,326,0,11.1314,44.6142
+Emilia Romagna,IT4040010,Torrazzuolo,132,0,11.0919,44.6911
+Emilia Romagna,IT4040011,Cassa di espansione del Fiume Panaro,276,0,11.0022,44.5958
+Emilia Romagna,IT4040014,Valli Mirandolesi,2726,0,11.2040,44.9042
+Emilia Romagna,IT4040015,Valle di Gruppo,1456,0,10.9198,44.8557
+Emilia Romagna,IT4040016,Siepi e Canali di Resega - Foresto,150,0,10.8988,44.9121
+Emilia Romagna,IT4040017,Valle delle Bruciate e Tresinaro,1100,0,10.8627,44.8534
+Emilia Romagna,IT4040018,Le Meleghine,327,0,11.2546,44.8833
+Emilia Romagna,IT4050001,"Gessi Bolognesi, Calanchi dell'Abbadessa",4296,0,11.4211,44.4236
+Emilia Romagna,IT4050002,Corno alle Scale,4578,0,10.8533,44.1394
+Emilia Romagna,IT4050012,Contrafforte Pliocenico,2627,0,11.3111,44.3414
+Emilia Romagna,IT4050013,Monte Vigese,618,0,11.0939,44.2128
+Emilia Romagna,IT4050014,"Monte Radicchio, Rupe di Calvenzano",1382,0,11.1269,44.3208
+Emilia Romagna,IT4050019,La Bora,40,0,11.2047,44.6314
+Emilia Romagna,IT4050022,Biotopi e Ripristini ambientali di Medicina e Molinella,4021,0,11.6956,44.5617
+Emilia Romagna,IT4050023,Biotopi e Ripristini ambientali di Budrio e Minerbio,875,0,11.5653,44.6186
+Emilia Romagna,IT4050024,"Biotopi e Ripristini ambientali di Bentivoglio, S. Pietro in Casale, Malalbergo e Baricella",3206,0,11.5994,44.6869
+Emilia Romagna,IT4050025,Biotopi e Ripristini ambientali di Crevalcore,699,0,11.1903,44.7173
+Emilia Romagna,IT4050026,Bacini ex-zuccherificio di Argelato e Golena del Fiume Reno,314,0,11.3063,44.6482
+Emilia Romagna,IT4050029,Boschi di San Luca e Destra Reno,1953,0,11.2856,44.4725
+Emilia Romagna,IT4050030,Cassa di espansione Dosolo,62,0,11.2667,44.6471
+Emilia Romagna,IT4050031,Cassa di espansione del Torrente Samoggia,145,0,11.1999,44.5975
+Emilia Romagna,IT4050032,"Monte dei Cucchi, Pian di Balestra",2449,0,11.2545,44.1814
+Emilia Romagna,IT4060001,Valli di Argenta,2904,0,11.8247,44.5886
+Emilia Romagna,IT4060002,Valli di Comacchio,16781,0,12.1781,44.6194
+Emilia Romagna,IT4060003,"Vene di Bellocchio, Sacca di Bellocchio, Foce del Fiume Reno, Pineta di Bellocchio",2244,0,12.2614,44.6075
+Emilia Romagna,IT4060004,"Valle Bertuzzi, Valle Porticino - Canneviè",2691,0,12.2197,44.7875
+Emilia Romagna,IT4060005,"Sacca di Goro, Po di Goro, Valle Dindona, Foce del Po di Volano",4872,0,12.3219,44.8100
+Emilia Romagna,IT4060007,Bosco di Volano,400,0,12.2597,44.7819
+Emilia Romagna,IT4060008,Valle del Mezzano,18866,0,11.9992,44.6844
+Emilia Romagna,IT4060010,Dune di Massenzatica,52,0,12.1644,44.8983
+Emilia Romagna,IT4060011,Garzaia dello zuccherificio di Codigoro e Po di Volano,184,0,12.0658,44.8342
+Emilia Romagna,IT4060012,Dune di San Giuseppe,73,0,12.2414,44.7303
+Emilia Romagna,IT4060014,Bacini di Jolanda di Savoia,45,0,11.9959,44.8720
+Emilia Romagna,IT4060015,"Bosco della Mesola, Bosco Panfilia, Bosco di Santa Giustina, Valle Falce, La Goara",1563,0,12.2639,44.8761
+Emilia Romagna,IT4060016,Fiume Po da Stellata a Mesola e Cavo Napoleonico,3140,0,11.5808,44.9119
+Emilia Romagna,IT4060017,Po di Primaro e Bacini di Traghetto,1434,0,11.7128,44.6423
+Emilia Romagna,IT4070001,"Punte Alberete, Valle Mandriole",972,0,12.2189,44.5253
+Emilia Romagna,IT4070002,Bardello,100,0,12.2381,44.5383
+Emilia Romagna,IT4070003,"Pineta di San Vitale, Bassa del Pirottolo",1222,0,12.2353,44.5103
+Emilia Romagna,IT4070004,"Pialasse Baiona, Risega e Pontazzo",1596,0,12.2567,44.5050
+Emilia Romagna,IT4070005,"Pineta di Casalborsetti, Pineta Staggioni, Duna di Porto Corsini",578,0,12.2783,44.5367
+Emilia Romagna,IT4070006,"Pialassa dei Piomboni, Pineta di Punta Marina",464,0,12.2769,44.4628
+Emilia Romagna,IT4070007,Salina di Cervia,1096,0,12.3308,44.2517
+Emilia Romagna,IT4070009,"Ortazzo, Ortazzino, Foce del Torrente Bevano",1255,0,12.3211,44.3450
+Emilia Romagna,IT4070010,Pineta di Classe,1082,0,12.2786,44.3528
+Emilia Romagna,IT4070011,Vena del Gesso Romagnola,5538,0,11.6475,44.2661
+Emilia Romagna,IT4070019,Bacini di Conselice,21,0,11.8884,44.5645
+Emilia Romagna,IT4070020,Bacini ex - zuccherificio di Mezzano,39,0,12.1049,44.4630
+Emilia Romagna,IT4070021,Biotopi di Alfonsine e Fiume Reno,472,0,11.9697,44.5244
+Emilia Romagna,IT4070022,Bacini di Russi e Fiume Lamone,132,0,12.0114,44.3861
+Emilia Romagna,IT4070023,Bacini di Massa Lombarda,42,0,11.7980,44.4766
+Emilia Romagna,IT4070027,Bacino dell'ex-fornace di Cotignola e Fiume Senio,20,0,11.9161,44.3750
+Emilia Romagna,IT4080001,"Foresta di Campigna, Foresta la Lama, Monte Falco",4041,0,11.8339,43.8369
+Emilia Romagna,IT4080002,Acquacheta,1654,0,11.6956,44.0219
+Emilia Romagna,IT4080003,"Monte Gemelli, Monte Guffone",13350,0,11.7386,43.9489
+Emilia Romagna,IT4090003,Rupi e Gessi della Valmarecchia,2526,0,12.3019,43.8994
+Emilia Romagna,IT4090005,Fiume Marecchia a Ponte Messa,265,0,12.2300,43.8144
+Emilia Romagna,IT4090006,"Versanti occidentali del Monte Carpegna, Torrente Messa, Poggio di Miratoio",2139,0,12.2667,43.8000
+Toscana,IT5110022,Lago di Porta,156,0,10.1722,43.9918
+Toscana,IT5120004,Pania di Corfino,134,0,10.3963,44.1902
+Toscana,IT5120007,Orrido di Botri,244,0,10.6247,44.0897
+Toscana,IT5120015,Praterie primarie e secondarie delle Apuane,17320,0,10.2473,44.0622
+Toscana,IT5120016,Macchia lucchese,406,0,10.2575,43.8383
+Toscana,IT5120017,Lago e Padule di Massacciuccoli,1906,0,10.3214,43.8417
+Toscana,IT5120105,Bonifica della Gherardesca,57,0,10.6120,43.7110
+Toscana,IT5130002,Campolino,132,0,10.6655,44.1144
+Toscana,IT5130003,Abetone,624,0,10.6803,44.1355
+Toscana,IT5130004,Pian degli Ontani,671,0,10.6985,44.1012
+Toscana,IT5130007,Padule di Fucecchio,2081,0,10.7914,43.8089
+Toscana,IT5140010,Bosco di Chiusi e Paduletta di Ramone,419,0,10.8272,43.8069
+Toscana,IT5140011,Stagni della Piana Fiorentina e Pratese,1902,0,11.0967,43.8175
+Toscana,IT5160001,Padule di Suese e Biscottino,144,0,10.3664,43.5917
+Toscana,IT5160002,Isola di Gorgona - area terrestre e marina,14818,0,9.8972,43.4275
+Toscana,IT5160003,Tombolo di Cecina,354,0,10.5142,43.2738
+Toscana,IT5160004,Padule di Bolgheri,577,0,10.5447,43.2242
+Toscana,IT5160007,Isola di Capraia - area terrestre e marina,18403,0,9.8185,42.9956
+Toscana,IT5160010,Padule Orti - Bottagone,121,0,10.5992,42.9681
+Toscana,IT5160011,Isole di Cerboli e Palmaiola,21,0,10.4742,42.8653
+Toscana,IT5160012,Monte Capanne e promontorio dell'Enfola,6756,0,10.1853,42.7781
+Toscana,IT5160013,Isola di Pianosa - area terrestre e marina,5498,0,10.0811,42.5836
+Toscana,IT5160014,Isola di Montecristo e Formica di Montecristo - area terrestre e marina,15483,0,10.3097,42.3319
+Toscana,IT5160102,Elba orientale,4687,0,10.3983,42.7237
+Toscana,IT5170001,Dune litoranee di Torre del Lago,123,0,10.2539,43.8286
+Toscana,IT5170002,Selva Pisana,9657,0,10.3064,43.7103
+Toscana,IT5170004,Montefalcone,510,0,10.7231,43.7435
+Toscana,IT5170006,Macchia di Tatti - Berignone,2489,0,10.9347,43.3353
+Toscana,IT5170007,Fiume Cecina da Berignone a Ponteginori,1909,0,10.8936,43.3256
+Toscana,IT5170008,Complesso di Monterufoli,5033,0,10.7806,43.2547
+Toscana,IT5180004,"Camaldoli, Scodella, Campigna, Badia Prataglia",2155,0,11.7921,43.8114
+Toscana,IT5180011,Pascoli montani e cespuglieti del Pratomagno,6753,0,11.6378,43.6536
+Toscana,IT5180012,Valle dell'Inferno e Bandella,893,0,11.6536,43.5078
+Toscana,IT5180014,Brughiere dell'Alpe di Poti,1143,0,11.9844,43.4728
+Toscana,IT5180016,Monte Dogana,1235,0,12.0328,43.3964
+Toscana,IT5180017,Monte Ginezzo,1604,0,12.0767,43.2811
+Toscana,IT5190004,Crete di Camposodo e Crete di Leonina,1859,0,11.4453,43.2942
+Toscana,IT5190005,Monte Oliveto Maggiore e Crete di Asciano,3305,0,11.5547,43.1594
+Toscana,IT5190008,Lago di Montepulciano,483,0,11.9172,43.0903
+Toscana,IT5190009,Lago di Chiusi,802,0,11.9631,43.0536
+Toscana,IT5190010,Lucciolabella,1417,0,11.7525,43.0256
+Toscana,IT5190011,Crete dell'Orcia e del Formone,8238,0,11.7447,42.9544
+Toscana,IT51A0004,Poggio Tre Cancelli,319,0,10.7782,42.9820
+Toscana,IT51A0011,Padule di Diaccia Botrona,1348,0,10.9206,42.7692
+Toscana,IT51A0012,Tombolo da Castiglion della Pescaia a Marina di Grosseto,373,0,10.9422,42.7436
+Toscana,IT51A0013,"Padule della Trappola, Bocca d'Ombrone",489,0,11.0160,42.6586
+Toscana,IT51A0014,Pineta Granducale dell'Uccellina,626,0,11.0483,42.6536
+Toscana,IT51A0015,Dune costiere del Parco dell'Uccellina,158,0,11.0736,42.6361
+Toscana,IT51A0016,Monti dell'Uccellina,4441,0,11.0994,42.6181
+Toscana,IT51A0018,Monte Labbro e alta valle dell'Albegna,6299,0,11.5042,42.8133
+Toscana,IT51A0019,Alto corso del Fiume Fiora,7111,0,11.6300,42.6867
+Toscana,IT51A0021,Medio corso del Fiume Albegna,1991,0,11.4358,42.6194
+Toscana,IT51A0022,Formiche di Grosseto,12,0,10.8811,42.5772
+Toscana,IT51A0023,Isola del Giglio,2094,0,10.8981,42.3531
+Toscana,IT51A0024,Isola di Giannutri - area terrestre e marina,11022,0,11.0994,42.2503
+Toscana,IT51A0025,"Monte Argentario, Isolotto di Porto Ercole e Argentarola",5723,0,11.1472,42.4039
+Toscana,IT51A0026,Laguna di Orbetello,3694,0,11.2225,42.4597
+Toscana,IT51A0028,Duna di Feniglia,458,0,11.2458,42.4229
+Toscana,IT51A0030,"Lago Acquato, Lago San Floriano",208,0,11.4531,42.4839
+Toscana,IT51A0033,Lago di Burano,489,0,11.3749,42.4016
+Toscana,IT51A0035,Isolotti grossetani dell'Arcipelago Toscano,11,0,11.2116,42.3809
+Toscana,IT51A0036,Pianure del Parco della Maremma,3303,0,11.0855,42.6824
+Umbria,IT5210070,Lago Trasimeno,14536,0,12.1066,43.1366
+Umbria,IT5210071,Monti Sibillini (versante umbro),17932,0,13.1408,42.7881
+Umbria,IT5210072,Palude di Colfiorito,189,0,12.8758,43.0242
+Umbria,IT5220024,Valle del Tevere: Laghi di Corbara - Alviano,7080,0,12.2561,42.5991
+Umbria,IT5220025,Bassa Valnerina: Monte Fionchi - Cascata delle Marmore,6372,0,12.7962,42.5943
+Umbria,IT5220026,Lago di Piediluco - Monte Maro,900,0,12.7554,42.5241
+Umbria,IT5220027,Lago dell'Aia (Narni),235,0,12.5540,42.5179
+Marche,IT5310011,Bocca Serriola,1273,0,12.3444,43.5375
+Marche,IT5310018,Serre del Burano,3720,0,12.5167,43.5139
+Marche,IT5310022,Fiume Metauro da Piano di Zucca alla foce,771,0,13.0244,43.7903
+Marche,IT5310024,Colle San Bartolo e litorale pesarese,4031,0,12.8765,43.9244
+Marche,IT5310025,Calanchi e praterie aride della media Valle del Foglia,10162,0,12.5828,43.7957
+Marche,IT5310026,Monte Carpegna e Sasso Simone e Simoncello,5590,0,12.3429,43.7782
+Marche,IT5310027,Mombaroccio e Beato Sante,2810,0,12.8256,43.7554
+Marche,IT5310028,Tavernelle sul Metauro,1481,0,12.8876,43.7228
+Marche,IT5310029,Furlo,4945,0,12.7504,43.6364
+Marche,IT5310030,Monte Nerone e Monti di Montiego,9233,0,12.5562,43.5642
+Marche,IT5310031,"Monte Catria, Monte Acuto e Monte della Strega",8844,0,12.7044,43.4827
+Marche,IT5320009,Fiume Esino in località Ripa Bianca,406,0,13.2939,43.5319
+Marche,IT5320015,Monte Conero,1980,0,13.5775,43.5282
+Marche,IT5320016,Valle Scappuccia,1028,0,12.9260,43.4444
+Marche,IT5320017,Gola della Rossa e di Frasassi,2640,0,12.9766,43.3932
+Marche,IT5320018,Monte Cucco e Monte Columeo,1301,0,12.7750,43.3683
+Marche,IT5330008,Valle Rapegna e Monte Cardosa,2341,0,13.1339,42.8797
+Marche,IT5330025,Monte San Vicino e Monte Canfaito,4719,0,13.0599,43.3202
+Marche,IT5330026,Monte Giuoco del Pallone,4522,0,12.8973,43.2428
+Marche,IT5330027,"Gola di Sant'Eustachio, Monte d'Aria e Monte Letegge",2936,0,13.1487,43.1633
+Marche,IT5330028,"Valle Scurosa, Piano di Montelago e Gola di Pioraco",5704,0,12.9382,43.1173
+Marche,IT5330029,Dalla Gola del Fiastrone al Monte Vettore,26611,0,13.2176,42.8621
+Marche,IT5330030,"Valnerina, Montagna di Torricchio, Monte Fema e Monte Cavallo",8497,0,13.0176,42.9520
+Marche,IT5340001,Litorale di Porto d'Ascoli,213,0,13.9120,42.9010
+Marche,IT5340004,Montagna dei Fiori,606,0,13.5861,42.8147
+Marche,IT5340016,Monte Oialona - Colle Propezzano,969,0,13.3278,42.8628
+Marche,IT5340021,Monte dell'Ascensione,1463,0,13.5727,42.9271
+Lazio,IT6010002,Bosco del Sasseto,61,0,11.9475,42.7611
+Lazio,IT6010003,Monte Rufeno,2339,0,11.8972,42.7895
+Lazio,IT6010008,Monti Vulsini,2389,0,12.0142,42.5964
+Lazio,IT6010009,Calanchi di Civita di Bagnoregio,1592,0,12.1525,42.6228
+Lazio,IT6010011,Caldera di Latera,1218,0,11.7964,42.6194
+Lazio,IT6010022,Monte Cimino (versante nord),975,0,12.1978,42.4228
+Lazio,IT6010026,Saline di Tarquinia,150,0,11.7175,42.2003
+Lazio,IT6010032,Fosso Cerreto,331,0,12.3911,42.2383
+Lazio,IT6010055,"Lago di Bolsena, Isole Bisentina e Martana",11501,0,11.9281,42.5938
+Lazio,IT6010056,Selva del Lamone e Monti di Castro,5705,0,11.6565,42.5323
+Lazio,IT6010057,Lago di Vico Monte Venere e Monte Fogliano,2119,0,12.1728,42.3160
+Lazio,IT6010058,Monte Romano,3842,0,11.9015,42.3308
+Lazio,IT6020005,Monti Reatini,23483,0,12.9489,42.4200
+Lazio,IT6020011,Laghi Lungo e Ripasottile,907,0,12.8211,42.4775
+Lazio,IT6020013,Gole del Velino,509,0,13.0825,42.4311
+Lazio,IT6020017,Monte Tancia e Monte Pizzuto,6821,0,12.7242,42.3603
+Lazio,IT6020018,Fiume Farfa (corso medio - alto),597,0,12.7775,42.2442
+Lazio,IT6020019,Monte degli Elci e Monte Grottone,515,0,12.7625,42.1942
+Lazio,IT6020046,Riserva naturale Montagne della Duchessa,3487,0,13.3313,42.1859
+Lazio,IT6030005,Comprensorio Tolfetano-Cerite-Manziate,67573,0,11.9877,42.1422
+Lazio,IT6030012,Riserva naturale Tevere Farfa,2063,0,12.6169,42.2283
+Lazio,IT6030019,Macchiatonda,242,0,11.9928,42.0014
+Lazio,IT6030020,Torre Flavia,49,0,12.0464,41.9625
+Lazio,IT6030026,Lago di Traiano,63,0,12.2626,41.7802
+Lazio,IT6030029,Monti Lucretili,11636,0,12.8353,42.0645
+Lazio,IT6030038,Lago di Albano,604,0,12.6686,41.7481
+Lazio,IT6030043,Monti Lepini,46925,0,13.1329,41.4439
+Lazio,IT6030084,Castel Porziano (Tenuta presidenziale),6039,0,12.4004,41.7247
+Lazio,IT6030085,Comprensorio Bracciano-Martignano,19554,0,12.2514,42.1285
+Lazio,IT6040010,Lago di Fondi,702,0,13.3358,41.3214
+Lazio,IT6040015,Parco Nazionale del Circeo,22165,0,12.9737,41.3117
+Lazio,IT6040019,"Isole di Ponza, Palmarola, Zannone, Ventotene e S. Stefano",17168,0,12.9426,40.9089
+Lazio,IT6040022,Costa rocciosa tra Sperlonga e Gaeta,233,0,13.5017,41.2278
+Lazio,IT6040023,Promontorio Gianola e Monte di Scauri,224,0,13.6822,41.2508
+Lazio,IT6040043,Monti Ausoni e Aurunci,62327,0,13.4559,41.2889
+Lazio,IT6050008,Monti Simbruini ed Ernici,52099,0,13.3350,41.7929
+Lazio,IT6050015,Lago di Posta Fibreno,139,0,13.6819,41.7006
+Lazio,IT6050027,Gole del Fiume Melfa,1181,0,13.6669,41.6025
+Lazio,IT6050028,Massiccio del Monte Cairo (aree sommitali),2787,0,13.7472,41.5703
+Abruzzo,IT7110128,Parco Nazionale Gran Sasso - Monti della Laga,143311,0,13.5720,42.4600
+Abruzzo,IT7110130,Sirente Velino,59134,0,13.5697,42.1794
+Abruzzo,IT7110207,Monti Simbruini,19886,0,13.3569,41.9356
+Abruzzo,IT7120132,"Parco Nazionale d'Abruzzo, Lazio e Molise ed aree limitrofe",51149,0,13.8399,41.7150
+Abruzzo,IT7140129,Parco Nazionale della Maiella,74082,0,14.0318,41.9359
+Molise,IT7211115,Pineta di Isernia,32,0,14.2475,41.5878
+Molise,IT7221131,Bosco di Collemeluccio,500,0,14.3499,41.7175
+Molise,IT7221132,Monte di Mezzo,313,0,14.2127,41.7580
+Molise,IT7222108,Calanchi Succida - Tappino,229,0,14.8911,41.5228
+Molise,IT7222124,Vallone S. Maria,1973,0,15.0125,41.6517
+Molise,IT7222248,Lago di Occhito,2454,0,14.9286,41.5678
+Molise,IT7222253,Bosco Ficarola,717,0,14.9214,41.6700
+Molise,IT7222265,Torrente Tona,393,9,15.0778,41.7222
+Molise,IT7222267,Località Fantina - Fiume Fortore,365,0,15.0994,41.6831
+Molise,IT7222287,La Gallinola - Monte Miletto - Monti del Matese,25002,0,14.3908,41.4650
+Molise,IT7222296,Sella di Vinchiaturo,978,0,14.5928,41.4528
+Molise,IT7228230,Lago di Guardialfiera - Foce fiume Biferno,28724,0,14.8520,41.7461
+Campania,IT8010018,Variconi,194,0,13.9319,41.0206
+Campania,IT8010026,Matese,25932,0,14.3930,41.3979
+Campania,IT8010030,Le Mortine,275,0,14.0980,41.4720
+Campania,IT8020006,Bosco di Castelvetere in Val Fortore,1468,0,14.9228,41.4464
+Campania,IT8020015,Invaso del Fiume Tammaro,2239,0,14.7235,41.3199
+Campania,IT8020016,Sorgenti e alta Valle del Fiume Fortore,2512,0,14.9756,41.4158
+Campania,IT8030007,Cratere di Astroni,253,0,14.1497,40.8447
+Campania,IT8030010,"Fondali marini di Ischia, Procida e Vivara",6116,0,13.9225,40.7569
+Campania,IT8030011,Fondali marini di Punta Campanella e Capri,8491,0,14.4344,40.6031
+Campania,IT8030012,Isola di Vivara,36,0,13.9928,40.7439
+Campania,IT8030014,Lago d'Averno,125,0,14.0761,40.8381
+Campania,IT8030024,Punta Campanella,390,0,14.3350,40.5811
+Campania,IT8030037,Vesuvio e Monte Somma,6251,0,14.4206,40.8222
+Campania,IT8030038,Corpo centrale e rupi costiere occidentali dell'Isola di Capri,388,0,14.2239,40.5483
+Campania,IT8030039,Settore e rupi costiere orientali dell'Isola di Capri,96,0,14.2592,40.5542
+Campania,IT8040007,Lago di Conza della Campania,1214,0,15.3358,40.8808
+Campania,IT8040021,Picentini,63728,0,14.9980,40.7071
+Campania,IT8040022,Boschi e Sorgenti della Baronia,3478,0,15.2387,41.0305
+Campania,IT8050008,Capo Palinuro,156,0,15.2811,40.0272
+Campania,IT8050009,Costiera amalfitana tra Maiori e il Torrente Bonea,325,0,14.6788,40.6357
+Campania,IT8050020,Massiccio del Monte Eremita,10570,0,15.3431,40.7303
+Campania,IT8050021,Medio corso del Fiume Sele - Persano,1515,0,15.1351,40.6023
+Campania,IT8050036,Parco marino di S. Maria di Castellabate,5019,0,14.9178,40.2833
+Campania,IT8050037,Parco marino di Punta degli Infreschi,4914,0,15.3733,39.9922
+Campania,IT8050045,Sorgenti del Vallone delle Ferriere di Amalfi,459,0,14.5799,40.6591
+Campania,IT8050046,Monte Cervati e dintorni,36912,0,15.4543,40.3099
+Campania,IT8050047,Costa tra Marina di Camerota e Policastro Bussentino,3276,0,15.4492,40.0353
+Campania,IT8050048,Costa tra Punta Tresino e le Ripe Rosse,2841,0,14.9465,40.2462
+Campania,IT8050053,"Monti Soprano, Vesole e Gole del Fiume Calore Salernitano",5974,0,15.1632,40.4132
+Campania,IT8050055,Alburni,25368,0,15.3365,40.5116
+Campania,IT8050056,Fiume Irno,100,0,14.7739,40.6999
+Puglia,IT9110026,Monte Calvo - Piana di Montenero,7620,0,15.7378,41.7517
+Puglia,IT9110037,Laghi di Lesina e Varano,15195,0,15.4548,41.8812
+Puglia,IT9110038,Paludi presso il Golfo di Manfredonia,14437,0,15.9778,41.4200
+Puglia,IT9110039,Promontorio del Gargano,70012,0,15.8708,41.6374
+Puglia,IT9110040,Isole Tremiti,342,0,15.4857,42.1127
+Puglia,IT9120007,Murgia Alta,125882,0,16.5236,40.9253
+Puglia,IT9120012,Scoglio dell'Eremita,18,0,17.1410,40.5940
+Puglia,IT9130007,Area delle Gravine,26740,0,16.9036,40.6206
+Puglia,IT9140003,Stagni e Saline di Punta della Contessa,2858,0,18.0550,40.6264
+Puglia,IT9140008,Torre Guaceto,548,0,17.7923,40.7152
+Puglia,IT9150014,Le Cesine,647,0,18.3413,40.3492
+Puglia,IT9150015,Litorale di Gallipoli e Isola S. Andrea,7006,0,17.9908,39.9778
+Basilicata,IT9210020,Bosco Cupolicchio,1763,0,16.0236,40.6375
+Basilicata,IT9210105,Dolomiti di Pietrapertosa,1313,0,16.0592,40.5256
+Basilicata,IT9210142,Lago Pantano di Pignola,165,0,15.7461,40.5883
+Basilicata,IT9210150,Monte Coccovello - Monte Crivo - Monte Crive,2981,0,15.7319,40.0275
+Basilicata,IT9210190,Monte Paratiello,1140,0,15.4025,40.7489
+Basilicata,IT9210201,Lago del Rendina,670,0,15.7417,41.0261
+Basilicata,IT9210210,Monte Vulture,1904,0,15.6222,40.9419
+Basilicata,IT9210266,Valle del Tuorno - Bosco Luceto,75,0,15.5459,40.5863
+Basilicata,IT9210270,"Appennino Lucano, Monte Volturino",9736,0,15.8736,40.3672
+Basilicata,IT9210271,"Appennino Lucano, Valle Agri, Monte Sirino, Monte Raparo",37492,0,16.0221,40.2266
+Basilicata,IT9210275,Massiccio del Monte Pollino e Monte Alpi,88052,0,16.1896,40.0558
+Basilicata,IT9220055,Bosco Pantano di Policoro e Costa Ionica Foce Sinni,1794,7.5,16.6663,40.1542
+Basilicata,IT9220130,Foresta Gallipoli - Cognato,4289,0,16.1247,40.5353
+Basilicata,IT9220135,Gravine di Matera,6968,0,16.6669,40.6503
+Basilicata,IT9220144,Lago S. Giuliano e Timmari,2575,0,16.4853,40.6256
+Basilicata,IT9220255,Valle Basento - Ferrandina Scalo,733,0,16.4917,40.5225
+Basilicata,IT9220260,Valle Basento Grassano Scalo - Grottole,882,0,16.2442,40.5983
+Calabria,IT9310069,Parco Nazionale della Calabria,8826,0,16.6489,39.1423
+Calabria,IT9310301,Sila Grande,31032,0,16.5592,39.3749
+Calabria,IT9310303,Pollino e Orsomarso,94145,0,16.1192,39.8031
+Calabria,IT9310304,Alto Ionio Cosentino,28622,0,16.4878,39.8808
+Calabria,IT9320302,Marchesato e Fiume Neto,70142,0,16.9111,38.9230
+Calabria,IT9350300,Costa Viola,29425,0,15.7300,38.2124
+Sicilia,ITA010006,Paludi di Capo Feto e Margi Spanò,350,0,12.4978,37.6892
+Sicilia,ITA010027,Arcipelago delle Egadi - area marina e terrestre,48291,0,12.2203,37.9634
+Sicilia,ITA010028,Stagnone di Marsala e Saline di Trapani - area marina e terrestre,3731,0,12.4580,37.8775
+Sicilia,ITA010029,"Monte Cofano, Capo San Vito e Monte Sparagio",15231,0,12.7805,38.0891
+Sicilia,ITA010030,Isola di Pantelleria e area marina circostante,15778,0,11.9930,36.7406
+Sicilia,ITA010031,"Laghetti di Preola e Gorghi Tondi, Sciare di Mazara e Pantano Leone",1652,0,12.6795,37.5944
+Sicilia,ITA020010,Isola di Ustica,349,0,13.1756,38.6946
+Sicilia,ITA020027,"Monte Iato, Kumeta, Maganoce e Pizzo Parrino",3034,0,13.2794,37.9581
+Sicilia,ITA020030,"Monte Matassaro, Monte Gradara e Monte Signora",3989,0,13.1764,38.0144
+Sicilia,ITA020042,Rocche di Entella,178,0,13.1173,37.7793
+Sicilia,ITA020048,"Monti Sicani, Rocca Busambra e Bosco della Ficuzza",59355,0,13.3184,37.6427
+Sicilia,ITA020049,Monte Pecoraro e Pizzo Cirina,8603,0,13.1409,38.1224
+Sicilia,ITA020050,Parco delle Madonie,40860,0,14.0184,37.8656
+Sicilia,ITA030042,"Monti Peloritani, Dorsale Curcuraci, Antennamare e area marina dello stretto di Messina",27993,0,15.5629,38.2602
+Sicilia,ITA030043,Monti Nebrodi,70529,0,14.7102,37.9282
+Sicilia,ITA030044,Arcipelago delle Eolie - area marina e terrestre,40432,0,14.9003,38.4963
+Sicilia,ITA040013,Arcipelago delle Pelagie - area marina e terrestre,12729,0,12.5740,35.5145
+Sicilia,ITA050006,Monte Conca,1407,0,13.7044,37.4894
+Sicilia,ITA050012,"Torre Manfria, Biviere e Piana di Gela",25057,0,14.3323,37.1009
+Sicilia,ITA060002,Lago di Pergusa,428,0,14.3047,37.5128
+Sicilia,ITA070003,La Gurna,41,0,15.2195,37.7696
+Sicilia,ITA070015,Canalone del Tripodo,1946,0,15.0436,37.7047
+Sicilia,ITA070016,Valle del Bove,3101,0,15.0392,37.7261
+Sicilia,ITA070017,Sciare di Roccazzo della Bandiera,2760,0,14.8936,37.7692
+Sicilia,ITA070018,Piano dei Grilli,1239,0,14.8539,37.7450
+Sicilia,ITA070029,"Biviere di Lentini, tratto mediano e foce del Fiume Simeto e area antistante la foce",6194,0,14.9987,37.3871
+Sicilia,ITA090006,Saline di Siracusa e Fiume Ciane,362,0,15.2425,37.0439
+Sicilia,ITA090013,Saline di Priolo,232,0,15.2133,37.1444
+Sicilia,ITA090014,Saline di Augusta,63,0,15.2131,37.2470
+Sicilia,ITA090029,"Pantani della Sicilia sud-orientale, Morghella, di Marzamemi, di Punta Pilieri e Vendicari",3559,0,15.0400,36.6928
+Sardegna,ITB010001,Isola Asinara,9669,0,8.2744,41.0014
+Sardegna,ITB010008,Arcipelago La Maddalena,21004,0,9.4661,41.1869
+Sardegna,ITB013011,Isola Piana di Porto Torres,399,0,8.2195,40.9736
+Sardegna,ITB013012,"Stagno di Pilo, Casaraccio e Saline di Stintino",1287,0,8.2485,40.8888
+Sardegna,ITB013018,"Capo Figari, Cala Sabina, Punta Canigione e Isola Figarolo",4054,0,9.6283,40.9720
+Sardegna,ITB013019,Isole del Nord - Est tra Capo Ceraso e Stagno di San Teodoro,18164,0,9.6844,40.7911
+Sardegna,ITB013044,Capo Caccia,4184,0,8.2262,40.5716
+Sardegna,ITB013048,"Piana di Ozieri, Mores, Ardara, Tula e Oschiri",21069,0,8.9431,40.6670
+Sardegna,ITB013049,Campu Giavesu,2154,0,8.7630,40.4580
+Sardegna,ITB020014,Golfo di Orosei,28972,0,9.6069,40.1611
+Sardegna,ITB021103,Monti del Gennargentu,44733,0,9.3361,39.9511
+Sardegna,ITB022212,"Supramonte di Oliena, Orgosolo e Urzulei - Su Sercone",23474,0,9.4708,40.1928
+Sardegna,ITB023037,"Costa e Entroterra di Bosa, Suni e Montresta",8222,0,8.4802,40.3309
+Sardegna,ITB023049,Monte Ortobene,2159,0,9.3790,40.3300
+Sardegna,ITB023050,"Piana di Semestene, Bonorva, Macomer e Bortigali",19604,0,8.7585,40.3459
+Sardegna,ITB023051,Altopiano di Abbasanta,19577,0,8.9194,40.2378
+Sardegna,ITB030039,Isola Mal di Ventre,375,0,8.3069,39.9903
+Sardegna,ITB033036,Costa di Cuglieri,2845,0,8.4775,40.1631
+Sardegna,ITB034001,Stagno di S'Ena Arrubia,298,0,8.5636,39.8220
+Sardegna,ITB034004,"Corru S'Ittiri, stagno di S. Giovanni e Marceddì",2652,0,8.5282,39.7025
+Sardegna,ITB034005,Stagno di Pauli Majori,289,0,8.6240,39.8702
+Sardegna,ITB034006,Stagno di Mistras,702,0,8.4611,39.9039
+Sardegna,ITB034007,Stagno di Sale E' Porcus,473,0,8.4405,40.0161
+Sardegna,ITB034008,Stagno di Cabras,3617,0,8.4978,39.9536
+Sardegna,ITB040026,Isola del Toro,63,0,8.4086,38.8603
+Sardegna,ITB040081,Isola della Vacca,60,0,8.4486,38.9381
+Sardegna,ITB043025,Stagni di Colostrai,1918,0,9.5752,39.3504
+Sardegna,ITB043026,Isola Serpentara,134,0,9.6054,39.1427
+Sardegna,ITB043027,Isola dei Cavoli,173,0,9.5330,39.0857
+Sardegna,ITB043028,Capo Carbonara e stagno di Notteri - Punta Molentis,867,0,9.5384,39.1298
+Sardegna,ITB043032,"Isola di Sant'Antioco, Capo Sperone",1785,0,8.4211,38.9750
+Sardegna,ITB043035,Costa e Entroterra tra Punta Cannoni e Punta delle Oche - Isola di San Pietro,1911,0,8.2505,39.1449
+Sardegna,ITB043054,Campidano Centrale,1564,0,8.6481,39.6231
+Sardegna,ITB043055,Monte dei Sette Fratelli,40474,0,9.3740,39.4281
+Sardegna,ITB043056,Giara di Siddi,960,0,8.8768,39.6758
+Sardegna,ITB044002,Saline di Molentargius,1307,0,9.1669,39.2277
+Sardegna,ITB044003,Stagno di Cagliari,3756,0,9.0513,39.2014
+Sardegna,ITB044009,Foresta di Monte Arcosu,3132,0,8.8851,39.1754

@@ -1,0 +1,13 @@
+addr:street=*
+addr:city=*
+addr:full=*
+addr:province=*
+description=*
+email=*
+opening_hours=*
+name=*
+int_name=*
+loc_name=*
+official_name=*
+short_name=*
+
