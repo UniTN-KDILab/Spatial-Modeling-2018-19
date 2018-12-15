@@ -1,5 +1,4 @@
-# kdi_project
-Resources and code used for the KDI course project.
+# Spatial Modelling Extension
 
 In the root folder it is possible to find:
 
@@ -18,7 +17,7 @@ In the root folder it is possible to find:
   Which we though to use to obtain tags out of the various OSM entities, in
   scenarios where `osmium` and `osm-tools` **seem not** to do the job.
 
-  PyOSM has been deprecated in favour of ther ways to process OSM data.
+  PyOSM has been deprecated in favour of other ways to process OSM data.
 
 
 ____
